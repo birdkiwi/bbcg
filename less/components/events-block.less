@@ -3,16 +3,19 @@
 }
 
 .events-block-item {
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 100%;
   color: #fff;
   background-color: #000;
 
-  &:hover {
+  &:hover,
+  &:focus {
     .events-block-item-readmore {
       max-height: 100px;
       margin-top: 18px;
+      opacity: 1;
       transition: all 200ms;
     }
   }
@@ -22,7 +25,7 @@
   padding-top: 40px;
   padding-left: 50px;
   padding-right: 50px;
-  min-height: 420px;
+  min-height: 545px;
   background-color: #000;
   background-repeat: no-repeat;
   background-position: center;
@@ -51,7 +54,11 @@
 }
 
 .events-block-item-footer {
-  position: relative;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  min-height: 130px;
   padding-top: 38px;
   padding-bottom: 20px;
   padding-left: 50px;
@@ -92,27 +99,82 @@
 .events-block-item-readmore {
   display: inline-block;
   max-height: 0;
+  opacity: 0;
   overflow: hidden;
   transition: all 200ms;
 }
 
+.events-block-item-blue {
+  .events-block-item-border {
+    border-color: @c-blue;
+  }
+
+  .events-block-item-footer {
+    background-color: @c-blue;
+  }
+}
+
+.events-block-item-ink {
+  .events-block-item-border {
+    border-color: @c-ink;
+  }
+
+  .events-block-item-footer {
+    background-color: @c-ink;
+  }
+}
+
+.events-block-item-yellow {
+  .events-block-item-border {
+    border-color: @c-yellow;
+  }
+
+  .events-block-item-footer {
+    background-color: @c-yellow;
+  }
+}
+
 .events-block-slider {
-  display: flex;
+  position: relative;
+
+  .slick-slide {
+    height: auto;
+  }
 }
 
-.events-block-slider-item {
-  flex: 0 0 33.3333%;
-  display: flex;
-}
+.events-block-slider-arrows {
+  .slick-arrow {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    margin-top: -30px;
+    width: 36px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.15);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    box-shadow: none;
+    color: transparent;
+    transition: all 200ms;
+    cursor: pointer;
 
-.events-block-slider-arrow {
+    &:hover,
+    &:focus {
+      background-color: @c-light-burgundy;
+      transition: all 200ms;
+    }
+  }
 
-}
+  .slick-prev {
+    left: 0;
+    border-radius: 0 4px 4px 0;
+    background-image: url("../images/icons/icon-slider-arrow-left-white.svg");
+  }
 
-.events-block-slider-arrow-prev {
-
-}
-
-.events-block-slider-arrow-next {
-
+  .slick-next {
+    right: 0;
+    border-radius: 4px 0 0 4px;
+    background-image: url("../images/icons/icon-slider-arrow-right-white.svg");
+  }
 }
