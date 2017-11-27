@@ -3,33 +3,22 @@ $(document).ready(function() {
 
     $(".js-slick-slider").slick();
 
-    $(".js-solutions-slider").slick({
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        infinite: false,
-        variableWidth: true,
-        dots: true,
-        touchThreshold: 8,
+    $(".js-events-slider").slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        appendArrows: ".events-block-slider-arrows",
         responsive: [
             {
-                breakpoint: 1170,
+                breakpoint: 1080,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1
+                    slidesToShow: 2
                 }
             },
             {
-                breakpoint: 820,
+                breakpoint: 760,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1
-                }
-            },
-            {
-                breakpoint: 610,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToShow: 1
                 }
             }
         ]
