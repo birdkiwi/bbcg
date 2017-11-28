@@ -14,6 +14,65 @@
   }
 }
 
+.summits-block-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.summits-block-header-right {
+  padding-left: 30px;
+
+  @media (max-width: 800px) {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    flex-direction: row-reverse;
+  }
+}
+
+.summits-block-header-year {
+  .ff-gilroy-extrabold;
+  font-size: 50px;
+  line-height: 1.2;
+  letter-spacing: -0.1px;
+  text-align: right;
+  color: @c-cool-grey;
+  margin-bottom: 5px;
+
+  @media (max-width: 800px) {
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-right: 20px;
+  }
+}
+
+.summits-block-header-arrows {
+  margin-left: 20px;
+  white-space: nowrap;
+
+  .slick-arrow {
+    margin-left: 10px;
+
+    @media (max-width: 800px) {
+      margin-left: 0;
+      margin-right: 10px;
+    }
+  }
+
+  @media (max-width: 800px) {
+    margin-left: 0;
+    margin-right: 20px;
+  }
+}
+
 .summits-block-title {
   .ff-gilroy-extrabold;
   font-size: 50px;
@@ -31,7 +90,6 @@
   font-size: 21px;
   font-weight: 300;
   line-height: 1.43;
-  margin-bottom: 30px;
 
   @media (max-width: 800px) {
     font-size: 16px;

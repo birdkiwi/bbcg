@@ -16320,6 +16320,61 @@ return jQuery;
 }));
 
 (function() {
+    $(".js-events-slider").slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        appendArrows: ".events-block-slider-arrows",
+        responsive: [
+            {
+                breakpoint: 1080,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 760,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+})();
+(function() {
+    $(".js-news-slider").slick({
+        infinite: true,
+        slidesToShow: 4,
+        rows: 2,
+        slidesToScroll: 4,
+        appendArrows: ".news-block-header-arrows",
+        responsive: [
+            {
+                breakpoint: 1080,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3
+                }
+            },
+            {
+                breakpoint: 900,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 520,
+                settings: {
+                    rows: 1,
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+})();
+(function() {
     function hideEvent(e, closestEl, hideFunc) {
         if(!$(e.target).closest(closestEl).length) {
             hideFunc();
@@ -16360,29 +16415,97 @@ return jQuery;
         });
     }*/
 })();
-$(document).ready(function() {
-    /* Slick Sliders */
-
-    $(".js-slick-slider").slick();
-
-    $(".js-events-slider").slick({
+(function() {
+    $(".js-partners-slider").slick({
         infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        appendArrows: ".events-block-slider-arrows",
+        slidesToShow: 4,
+        rows: 2,
+        slidesToScroll: 4,
+        appendArrows: ".partners-block-header-arrows",
         responsive: [
             {
                 breakpoint: 1080,
                 settings: {
-                    slidesToShow: 2
+                    slidesToShow: 3,
+                    slidesToScroll: 3
                 }
             },
             {
-                breakpoint: 760,
+                breakpoint: 700,
                 settings: {
-                    slidesToShow: 1
+                    rows: 1,
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 520,
+                settings: {
+                    rows: 1,
+                    slidesToShow: 1,
+                    slidesToScroll: 1
                 }
             }
         ]
     });
+})();
+(function() {
+    $(".js-speakers-slider").slick({
+        infinite: true,
+        slidesToShow: 4,
+        rows: 2,
+        slidesToScroll: 4,
+        appendArrows: ".speakers-block-header-arrows",
+        prevArrow: '<button type="button" class="slick-arrow slick-arrow-white slick-prev"></button>',
+        nextArrow: '<button type="button" class="slick-arrow slick-arrow-white slick-next"></button>',
+        responsive: [
+            {
+                breakpoint: 1080,
+                settings: {
+                    rows: 1,
+                    slidesToShow: 3,
+                    slidesToScroll: 3
+                }
+            },
+            {
+                breakpoint: 700,
+                settings: {
+                    rows: 1,
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 520,
+                settings: {
+                    rows: 1,
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+})();
+(function() {
+    $(".js-summits-slider").slick({
+        infinite: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        appendArrows: ".summits-block-header-arrows"
+    });
+
+    $(".js-summits-slider").on('beforeChange', function(e, slick, currentSlide, nextSlide) {
+        console.log(slick);
+
+        var $nextSlide = $(slick.$slides[nextSlide]).find('[data-summits-year]');
+
+        var year = $nextSlide.data('summits-year');
+
+        if (year) {
+            $('.js-summits-slider-current-year').html(year);
+        }
+    });
+})();
+$(document).ready(function() {
+    $(".js-slick-slider").slick();
 });

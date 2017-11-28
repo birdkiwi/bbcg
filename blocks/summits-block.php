@@ -1,14 +1,25 @@
 <section class="summits-block">
     <div class="wrapper">
-        <div class="summits-block-title">
-            Главные бизнес-саммиты индустрии
-        </div>
-        <div class="summits-block-subtitle">
-            Каждый саммит BBCG отличает полномасштабность и полный кворум ключевых игроков рынка
+        <div class="summits-block-header">
+            <div class="summits-block-header-left">
+                <div class="summits-block-title">
+                    Главные бизнес-саммиты индустрии
+                </div>
+                <div class="summits-block-subtitle">
+                    Каждый саммит BBCG отличает полномасштабность и полный кворум ключевых игроков рынка
+                </div>
+            </div>
+            <div class="summits-block-header-right">
+                <div class="summits-block-header-year js-summits-slider-current-year">
+                    2018
+                </div>
+                <div class="summits-block-header-arrows"></div>
+            </div>
         </div>
 
-        <div class="summits-block-slider">
-            <div class="summits-block-slider-item">
+        <div class="summits-block-slider js-summits-slider">
+            <?php for ($i = 1; $i <= 3; $i++) : ?>
+            <div class="summits-block-slider-item" data-summits-year="<?php echo 2017 + $i; ?>">
                 <div class="summits-block-cards">
                     <div class="summits-block-cards-title">
                         Москва
@@ -141,7 +152,7 @@
                     </div>
                 </div>
             </div>
-
+            <?php endfor; ?>
         </div>
     </div>
 </section>
