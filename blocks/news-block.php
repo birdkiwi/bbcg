@@ -6,5 +6,176 @@
         <div class="news-block-subtitle">
             Узнайте эксклюзивную информацию о рынке до появления в СМИ
         </div>
+
+        <div class="news-block-slider js-slick-slider">
+            <?php for ($i = 1; $i <= 3; $i++) : ?>
+            <div class="news-block-slide">
+                <div class="news-block-row">
+                    <div class="news-block-row-item">
+                        <a href="#" class="news-block-item news-block-item-with-photo">
+                            <div class="news-block-item-photo">
+                                <img src="images/tmp/news/news-1.jpg" alt="">
+                            </div>
+                            <div class="news-block-item-content">
+                                <div class="news-block-item-title">
+                                    «ВШЭУ» запустила программу «Менеджмент в ритейле»
+                                </div>
+                                <div class="news-block-item-meta">
+                                    <div class="news-block-item-date">
+                                        26 октября
+                                    </div>
+                                    <div class="news-block-item-readmore">
+                                        <?php include "images/icons/icon-news-readmore.svg"; ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="news-block-row-item">
+                        <a href="#" class="news-block-item news-block-item-with-photo">
+                            <div class="news-block-item-photo">
+                                <img src="images/tmp/news/news-2.jpg" alt="">
+                            </div>
+                            <div class="news-block-item-content">
+                                <div class="news-block-item-title">
+                                    Приглашаем на деловые экскурсии
+                                </div>
+                                <div class="news-block-item-meta">
+                                    <div class="news-block-item-date">
+                                        26 октября
+                                    </div>
+                                    <div class="news-block-item-readmore">
+                                        <?php include "images/icons/icon-news-readmore.svg"; ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="news-block-row-item">
+                        <a href="#" class="news-block-item news-block-item-blank">
+                            <div class="news-block-item-content">
+                                <div class="news-block-item-title">
+                                    Ретейлеры для директоров
+                                    по Ритейлу: Инновации
+                                    в управлении ритейлом (розничным блоком)!
+                                </div>
+                                <div class="news-block-item-meta">
+                                    <div class="news-block-item-date">
+                                        26 октября
+                                    </div>
+                                    <div class="news-block-item-readmore">
+                                        <?php include "images/icons/icon-news-readmore.svg"; ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="news-block-row-item">
+                        <a href="#" class="news-block-item news-block-item-with-photo">
+                            <div class="news-block-item-photo">
+                                <img src="images/tmp/news/news-3.jpg" alt="">
+                            </div>
+                            <div class="news-block-item-content">
+                                <div class="news-block-item-title">
+                                    Меркурий: от теории к практике
+                                </div>
+                                <div class="news-block-item-meta">
+                                    <div class="news-block-item-date">
+                                        26 октября
+                                    </div>
+                                    <div class="news-block-item-readmore">
+                                        <?php include "images/icons/icon-news-readmore.svg"; ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="news-block-row-item">
+                        <a href="#" class="news-block-item news-block-item-blank">
+                            <div class="news-block-item-content">
+                                <div class="news-block-item-title">
+                                    Мастер-класс по европейской кухне
+                                </div>
+                                <div class="news-block-item-meta">
+                                    <div class="news-block-item-date">
+                                        26 октября
+                                    </div>
+                                    <div class="news-block-item-readmore">
+                                        <?php include "images/icons/icon-news-readmore.svg"; ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="news-block-row-item">
+                        <a href="#" class="news-block-item news-block-item-blank">
+                            <div class="news-block-item-content">
+                                <div class="news-block-item-title">
+                                    Ретейлеры для директоров
+                                    по Ритейлу: Инновации
+                                    в управлении ритейлом (розничным блоком)!
+                                </div>
+                                <div class="news-block-item-meta">
+                                    <div class="news-block-item-date">
+                                        26 октября
+                                    </div>
+                                    <div class="news-block-item-readmore">
+                                        <?php include "images/icons/icon-news-readmore.svg"; ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="news-block-row-item">
+                        <a href="#" class="news-block-item news-block-item-with-photo">
+                            <div class="news-block-item-photo">
+                                <img src="images/tmp/news/news-4.jpg" alt="">
+                            </div>
+                            <div class="news-block-item-content">
+                                <div class="news-block-item-title">
+                                    В рамках RBR 2017, состоялся гала ужин Академии Ритейла и каким будет fashion-ритейл в ближайшем будущем, бла…
+                                </div>
+                                <div class="news-block-item-meta">
+                                    <div class="news-block-item-date">
+                                        26 октября
+                                    </div>
+                                    <div class="news-block-item-readmore">
+                                        <?php include "images/icons/icon-news-readmore.svg"; ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="news-block-row-item">
+                        <a href="#" class="news-block-item news-block-item-with-photo">
+                            <div class="news-block-item-photo">
+                                <img src="images/tmp/news/news-4.jpg" alt="">
+                            </div>
+                            <div class="news-block-item-content">
+                                <div class="news-block-item-title">
+                                    Каким будет fashion-ритейл в ближайшем будущем?
+                                </div>
+                                <div class="news-block-item-meta">
+                                    <div class="news-block-item-date">
+                                        26 октября
+                                    </div>
+                                    <div class="news-block-item-readmore">
+                                        <?php include "images/icons/icon-news-readmore.svg"; ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <?php endfor; ?>
+        </div>
     </div>
 </section>
