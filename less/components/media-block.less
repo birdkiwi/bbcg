@@ -4,8 +4,13 @@
   & > .wrapper {
     position: relative;
     padding-top: 60px;
-    padding-bottom: 55px;
+    padding-bottom: 105px;
     .block-triangle(#fff);
+
+    @media (max-width: 800px) {
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
   }
 }
 
@@ -15,6 +20,10 @@
   line-height: 1.2;
   letter-spacing: -0.1px;
   text-transform: uppercase;
+
+  @media (max-width: 800px) {
+    font-size: 26px;
+  }
 }
 
 .media-block-subtitle {
@@ -23,6 +32,10 @@
   font-weight: 300;
   line-height: 1.43;
   margin-bottom: 30px;
+
+  @media (max-width: 800px) {
+    font-size: 16px;
+  }
 }
 
 .media-block-cards {

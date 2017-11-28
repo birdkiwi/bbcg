@@ -14,9 +14,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="events-block-item-footer">
+                    <a href="#" class="events-block-item-footer">
                         <div class="events-block-item-logo">
-                            <img src="images/summits-logo/online-retail-russia.svg" alt="Online Retail Russia">
+                            <img src="images/summits-logo/online-retail-russia.png" alt="Online Retail Russia">
                         </div>
                         <div class="events-block-item-title">
                             Online Retail Russia
@@ -24,10 +24,10 @@
                         <div class="events-block-item-desc">
                             X международный конгресс первых лиц большого ритейла, Интернет-торговли и мультиканальных сетей.
                         </div>
-                        <a href="#" class="events-block-item-readmore">
+                        <div class="events-block-item-readmore">
                             <img src="images/icons/icon-event-readmore-white.svg" alt="&rarr;">
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
             </div>
 
@@ -43,9 +43,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="events-block-item-footer">
+                    <a href="#" class="events-block-item-footer">
                         <div class="events-block-item-logo">
-                            <img src="images/summits-logo/online-retail-russia.svg" alt="Online Retail Russia">
+                            <img src="images/summits-logo/russian-export-day.png" alt="Russian Export Day 2017">
                         </div>
                         <div class="events-block-item-title">
                             Russian Export Day 2017
@@ -53,10 +53,10 @@
                         <div class="events-block-item-desc">
                             Делегаты: 500 руководителей бизнеса из традиционного сетевого ритейла и компаний интернет-торговли...
                         </div>
-                        <a href="#" class="events-block-item-readmore">
+                        <div class="events-block-item-readmore">
                             <img src="images/icons/icon-event-readmore-white.svg" alt="&rarr;">
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
             </div>
 
@@ -72,9 +72,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="events-block-item-footer">
+                    <a href="#" class="events-block-item-footer">
                         <div class="events-block-item-logo">
-                            <img src="images/summits-logo/online-retail-russia.svg" alt="Online Retail Russia">
+                            <img src="images/summits-logo/academy-retail.png" alt="Академия ритейла">
                         </div>
                         <div class="events-block-item-title">
                             Академия ритейла
@@ -82,10 +82,10 @@
                         <div class="events-block-item-desc">
                             Программа обучения «Коммерческий директор»
                         </div>
-                        <a href="#" class="events-block-item-readmore">
+                        <div class="events-block-item-readmore">
                             <img src="images/icons/icon-event-readmore-white.svg" alt="&rarr;">
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
             </div>
 
@@ -101,9 +101,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="events-block-item-footer">
+                    <a href="#" class="events-block-item-footer">
                         <div class="events-block-item-logo">
-                            <img src="images/summits-logo/online-retail-russia.svg" alt="Online Retail Russia">
+                            <img src="images/summits-logo/diy-household.png" alt="Online Retail Russia">
                         </div>
                         <div class="events-block-item-title">
                             Online Retail Russia
@@ -111,10 +111,10 @@
                         <div class="events-block-item-desc">
                             X международный конгресс первых лиц большого ритейла, Интернет-торговли и мультиканальных сетей.
                         </div>
-                        <a href="#" class="events-block-item-readmore">
+                        <div class="events-block-item-readmore">
                             <img src="images/icons/icon-event-readmore-white.svg" alt="&rarr;">
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
             </div>
 
@@ -130,9 +130,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="events-block-item-footer">
+                    <a href="#" class="events-block-item-footer">
                         <div class="events-block-item-logo">
-                            <img src="images/summits-logo/online-retail-russia.svg" alt="Online Retail Russia">
+                            <img src="images/summits-logo/retail-business-russia.png" alt="Online Retail Russia">
                         </div>
                         <div class="events-block-item-title">
                             Russian Export Day 2017
@@ -140,10 +140,10 @@
                         <div class="events-block-item-desc">
                             Делегаты: 500 руководителей бизнеса из традиционного сетевого ритейла и компаний интернет-торговли...
                         </div>
-                        <a href="#" class="events-block-item-readmore">
+                        <div class="events-block-item-readmore">
                             <img src="images/icons/icon-event-readmore-white.svg" alt="&rarr;">
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
             </div>
 
@@ -159,9 +159,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="events-block-item-footer">
+                    <a href="#" class="events-block-item-footer">
                         <div class="events-block-item-logo">
-                            <img src="images/summits-logo/online-retail-russia.svg" alt="Online Retail Russia">
+                            <img src="images/summits-logo/fashion-retail-russia.png" alt="Online Retail Russia">
                         </div>
                         <div class="events-block-item-title">
                             Академия ритейла
@@ -169,10 +169,10 @@
                         <div class="events-block-item-desc">
                             Программа обучения «Коммерческий директор»
                         </div>
-                        <a href="#" class="events-block-item-readmore">
+                        <div class="events-block-item-readmore">
                             <img src="images/icons/icon-event-readmore-white.svg" alt="&rarr;">
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
             </div>
 
@@ -188,9 +188,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="events-block-item-footer">
+                    <a href="#" class="events-block-item-footer">
                         <div class="events-block-item-logo">
-                            <img src="images/summits-logo/online-retail-russia.svg" alt="Online Retail Russia">
+                            <img src="images/summits-logo/fresh-food-russia.png" alt="Online Retail Russia">
                         </div>
                         <div class="events-block-item-title">
                             Академия ритейла
@@ -198,10 +198,10 @@
                         <div class="events-block-item-desc">
                             Программа обучения «Коммерческий директор»
                         </div>
-                        <a href="#" class="events-block-item-readmore">
+                        <div class="events-block-item-readmore">
                             <img src="images/icons/icon-event-readmore-white.svg" alt="&rarr;">
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
             </div>
 
@@ -217,9 +217,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="events-block-item-footer">
+                    <a href="#" class="events-block-item-footer">
                         <div class="events-block-item-logo">
-                            <img src="images/summits-logo/online-retail-russia.svg" alt="Online Retail Russia">
+                            <img src="images/summits-logo/digital-technologies-forum.png" alt="Online Retail Russia">
                         </div>
                         <div class="events-block-item-title">
                             Академия ритейла
@@ -227,10 +227,10 @@
                         <div class="events-block-item-desc">
                             Программа обучения «Коммерческий директор»
                         </div>
-                        <a href="#" class="events-block-item-readmore">
+                        <div class="events-block-item-readmore">
                             <img src="images/icons/icon-event-readmore-white.svg" alt="&rarr;">
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
             </div>
 
@@ -246,9 +246,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="events-block-item-footer">
+                    <a href="#" class="events-block-item-footer">
                         <div class="events-block-item-logo">
-                            <img src="images/summits-logo/online-retail-russia.svg" alt="Online Retail Russia">
+                            <img src="images/summits-logo/food-retail-russia.png" alt="Online Retail Russia">
                         </div>
                         <div class="events-block-item-title">
                             Академия ритейла
@@ -256,10 +256,10 @@
                         <div class="events-block-item-desc">
                             Программа обучения «Коммерческий директор»
                         </div>
-                        <a href="#" class="events-block-item-readmore">
+                        <div class="events-block-item-readmore">
                             <img src="images/icons/icon-event-readmore-white.svg" alt="&rarr;">
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
             </div>
 
@@ -275,9 +275,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="events-block-item-footer">
+                    <a href="#" class="events-block-item-footer">
                         <div class="events-block-item-logo">
-                            <img src="images/summits-logo/online-retail-russia.svg" alt="Online Retail Russia">
+                            <img src="images/summits-logo/private-labels.png" alt="Online Retail Russia">
                         </div>
                         <div class="events-block-item-title">
                             Академия ритейла
@@ -285,10 +285,10 @@
                         <div class="events-block-item-desc">
                             Программа обучения «Коммерческий директор»
                         </div>
-                        <a href="#" class="events-block-item-readmore">
+                        <div class="events-block-item-readmore">
                             <img src="images/icons/icon-event-readmore-white.svg" alt="&rarr;">
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>

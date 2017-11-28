@@ -11,9 +11,11 @@
             </div>
         </div>
         <div class="iphone-block-right">
+            <div class="iphone-block-screen"></div>
             <div class="iphone-block-app">
                 <div class="iphone-block-app-title">
-                    Приложение BBCG
+                    Приложение <br>
+                    BBCG
                 </div>
                 <a href="#" target="_blank" class="iphone-block-app-icon">
                     <img src="images/icons/icon-appstore-white.svg" alt="App Store">
