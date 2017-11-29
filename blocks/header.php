@@ -8,6 +8,11 @@
                 <img src="images/logo.svg" alt="BBCG — B2B Conference Group">
             </a>
         </div>
+        <div class="main-header-mobile-logo">
+            <a href="index.php">
+                <img src="images/logo-min.svg" alt="BBCG — B2B Conference Group">
+            </a>
+        </div>
         <nav class="main-header-menu">
             <ul>
                 <li>

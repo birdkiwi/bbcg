@@ -30,6 +30,13 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
+  @media (max-width: 900px) {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 425px;
+  }
 }
 
 .events-block-item-border {
@@ -39,11 +46,20 @@
   padding: 25px 30px;
   border: solid 6px #1a9dff;
   min-height: 250px;
+
+  @media (max-width: 900px) {
+    padding: 15px;
+    min-height: 220px;
+  }
 }
 
 .events-block-item-name {
   .ff-gilroy-extrabold;
   font-size: 21px;
+
+  @media (max-width: 900px) {
+    font-size: 18px;
+  }
 }
 
 .events-block-item-date {
@@ -51,6 +67,10 @@
   opacity: 0.88;
   font-size: 21px;
   color: #ffffff;
+
+  @media (max-width: 900px) {
+    font-size: 18px;
+  }
 }
 
 .events-block-item-footer {
@@ -73,6 +93,11 @@
   &:focus {
     color: #fff;
   }
+
+  @media (max-width: 900px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 .events-block-item-logo {
@@ -88,6 +113,12 @@
   img {
     max-width: 100%;
     max-height: 100%;
+  }
+
+  @media (max-width: 900px) {
+    left: 15px;
+    transform: scale(0.7);
+    transform-origin: left bottom;
   }
 }
 

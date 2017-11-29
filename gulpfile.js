@@ -1,6 +1,5 @@
 var gulp = require('gulp'),
     less = require('gulp-less'),
-    cssmin = require('gulp-cssmin'),
     rename = require('gulp-rename'),
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
@@ -33,6 +32,8 @@ var jsFiles = [
         './node_modules/jquery/dist/jquery.js',
         './node_modules/inputmask/dist/jquery.inputmask.bundle.js',
         './node_modules/slick-carousel/slick/slick.js',
+        './node_modules/jquery-modal/jquery.modal.js',
+        './node_modules/jquery-validation/dist/jquery.validate.js',
         './js/components/**/*.js',
         './js/scripts.js'
     ],
