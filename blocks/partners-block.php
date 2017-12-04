@@ -17,7 +17,7 @@
             </div>
         </div>
 
-        <div class="partners-block-slider js-partners-slider">
+        <div class="media-block-slider js-partners-slider">
             <?php for ($i = 1; $i <= 3; $i++) : ?>
             <div class="partners-block-slide">
                 <a href="#" class="partners-block-card">

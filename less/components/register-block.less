@@ -81,7 +81,7 @@
 }
 
 .register-block-offer-price-premium {
-  background-color: @c-yellow;
+  background-color: @c-corn-yellow;
   color: #fff;
 }
 
@@ -89,6 +89,21 @@
   padding: 20px 24px;
   font-size: 15px;
   line-height: 1.33;
+}
+
+.register-block-offer-plus {
+  .ff-gilroy-extrabold;
+  text-align: center;
+  font-size: 13px;
+
+  &::before {
+    content: '';
+    display: block;
+    width: 17px;
+    height: 17px;
+    margin: 0 auto 12px;
+    background: url("../images/icons/icon-register-plus.svg") no-repeat  center;
+  }
 }
 
 .register-block-offer-button {
@@ -125,7 +140,7 @@
   .ff-gilroy-light;
   font-size: 24px;
   color: #ffffff;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.6);
   text-decoration: none;
   transition: all 200ms;
 

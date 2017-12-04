@@ -9,7 +9,7 @@
 
         <div class="programs-block-cards">
             <div class="programs-block-cards-item">
-                <div class="programs-block-card">
+                <a href="#" class="programs-block-card">
                     <div class="programs-block-card-header">
                         <div class="programs-block-card-title">
                             СЕО и генеральный директор
@@ -28,11 +28,11 @@
                         управление изменениями
                         и диджитализацией бизнеса
                     </div>
-                </div>
+                </a>
             </div>
 
             <div class="programs-block-cards-item">
-                <div class="programs-block-card">
+                <a href="#" class="programs-block-card">
                     <div class="programs-block-card-header">
                         <div class="programs-block-card-title">
                             Retail директор
@@ -50,11 +50,11 @@
                         Конкурентоспособность
                         и инновации в управлении магазинами
                     </div>
-                </div>
+                </a>
             </div>
 
             <div class="programs-block-cards-item">
-                <div class="programs-block-card">
+                <a href="#" class="programs-block-card">
                     <div class="programs-block-card-header">
                         <div class="programs-block-card-title">
                             Коммерческий директор
@@ -71,11 +71,11 @@
                     <div class="programs-block-card-desc">
                         Скорость и эффективность продаж в современной рознице
                     </div>
-                </div>
+                </a>
             </div>
 
             <div class="programs-block-cards-item">
-                <div class="programs-block-card">
+                <a href="#" class="programs-block-card">
                     <div class="programs-block-card-header">
                         <div class="programs-block-card-title">
                             Операционный директор
@@ -92,11 +92,11 @@
                     <div class="programs-block-card-desc">
                         Конкурентоспособность магазинов и эффективное операционное управление
                     </div>
-                </div>
+                </a>
             </div>
 
             <div class="programs-block-cards-item">
-                <div class="programs-block-card">
+                <a href="#" class="programs-block-card">
                     <div class="programs-block-card-header">
                         <div class="programs-block-card-title">
                             Директор по персоналу
@@ -113,11 +113,11 @@
                     <div class="programs-block-card-desc">
                         Устойчивая конкурентоспособность: управление изменениями и диджитализацией бизнеса
                     </div>
-                </div>
+                </a>
             </div>
 
             <div class="programs-block-cards-item">
-                <div class="programs-block-card">
+                <a href="#" class="programs-block-card">
                     <div class="programs-block-card-header">
                         <div class="programs-block-card-title">
                             Маркетинг директор
@@ -134,11 +134,11 @@
                     <div class="programs-block-card-desc">
                         Конкурентоспособность и инновации в управлении магазинами
                     </div>
-                </div>
+                </a>
             </div>
 
             <div class="programs-block-cards-item">
-                <div class="programs-block-card">
+                <a href="#" class="programs-block-card">
                     <div class="programs-block-card-header">
                         <div class="programs-block-card-title">
                             Финансовый директор
@@ -155,7 +155,7 @@
                     <div class="programs-block-card-desc">
                         Скорость и эффективность продаж в современной рознице
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>

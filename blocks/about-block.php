@@ -10,7 +10,8 @@
                         17
                     </div>
                     <div class="about-block-stats-item-desc">
-                        лет работы
+                        лет <br>
+                        работы
                     </div>
                 </div>
 
@@ -66,7 +67,19 @@
                     </div>
                 </div>
             </div>
+
             <div class="about-block-seo-photo"></div>
+
+            <div class="about-block-seo-button">
+                <a href="#" class="button button-light-burgundy">
+                    Регистрация
+                </a>
+
+                <div class="about-block-seo-button-desc">
+                    Эксклюзивная информация и полезные контакты в сфере ритейла.
+                </div>
+            </div>
+
             <div class="about-block-seo-desc">
                 <div class="about-block-seo-desc-name">
                     Алексей Филатов

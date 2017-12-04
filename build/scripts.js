@@ -18166,7 +18166,14 @@ if ( $.ajaxPrefilter ) {
 return $;
 }));
 (function() {
-    $(".js-events-slider").slick({
+    var $slider = $(".js-events-slider");
+
+    $slider.on('init', function (e, slick) {
+        console.log(e);
+        console.log(slick);
+    });
+
+    $slider.slick({
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -18182,6 +18189,40 @@ return $;
                 breakpoint: 760,
                 settings: {
                     slidesToShow: 1
+                }
+            }
+        ]
+    });
+})();
+(function() {
+    $(".js-media-slider").slick({
+        infinite: true,
+        slidesToShow: 4,
+        rows: 2,
+        slidesToScroll: 4,
+        appendArrows: ".media-block-header-arrows",
+        responsive: [
+            {
+                breakpoint: 1080,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3
+                }
+            },
+            {
+                breakpoint: 700,
+                settings: {
+                    rows: 1,
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    rows: 1,
+                    slidesToShow: 1,
+                    slidesToScroll: 1
                 }
             }
         ]
@@ -18205,6 +18246,8 @@ return $;
             {
                 breakpoint: 900,
                 settings: {
+                    arrows: false,
+                    dots: true,
                     slidesToShow: 2,
                     slidesToScroll: 2
                 }
@@ -18212,6 +18255,8 @@ return $;
             {
                 breakpoint: 520,
                 settings: {
+                    arrows: false,
+                    dots: true,
                     rows: 1,
                     slidesToShow: 1,
                     slidesToScroll: 1
@@ -18288,8 +18333,8 @@ return $;
                 breakpoint: 520,
                 settings: {
                     rows: 1,
-                    slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToShow: 2,
+                    slidesToScroll: 2
                 }
             }
         ]
@@ -18333,16 +18378,16 @@ return $;
     });
 })();
 (function() {
-    $(".js-summits-slider").slick({
-        infinite: false,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        appendArrows: ".summits-block-header-arrows"
+    var $slider = $(".js-summits-slider");
+
+    $slider.on('init', function (e, slick) {
+        setTimeout(function () {
+            // Let's go to last possible slide 💩
+            slick.slickGoTo(999, false);
+        });
     });
 
-    $(".js-summits-slider").on('beforeChange', function(e, slick, currentSlide, nextSlide) {
-        console.log(slick);
-
+    $slider.on('beforeChange', function(e, slick, currentSlide, nextSlide) {
         var $nextSlide = $(slick.$slides[nextSlide]).find('[data-summits-year]');
 
         var year = $nextSlide.data('summits-year');
@@ -18350,6 +18395,13 @@ return $;
         if (year) {
             $('.js-summits-slider-current-year').html(year);
         }
+    });
+
+    $slider.slick({
+        infinite: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        appendArrows: ".summits-block-header-arrows"
     });
 })();
 $(document).ready(function() {

@@ -25,8 +25,8 @@
                 breakpoint: 520,
                 settings: {
                     rows: 1,
-                    slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToShow: 2,
+                    slidesToScroll: 2
                 }
             }
         ]

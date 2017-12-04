@@ -32,10 +32,12 @@
                 </li>
             </ul>
         </nav>
+
         <div class="main-header-lang">
-            <a href="#" class="active">Рус</a>
-            <a href="#">Eng</a>
+            <a href="#" class="main-header-lang-item active">Рус</a>
+            <a href="#" class="main-header-lang-item">Eng</a>
         </div>
+
         <div class="main-header-userarea">
             <div class="main-header-userarea-login-register">
                 <a href="#">Войти</a>

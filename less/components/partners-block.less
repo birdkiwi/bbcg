@@ -5,7 +5,7 @@
     position: relative;
     padding-top: 60px;
     padding-bottom: 55px;
-    .block-triangle(#f6f8f9);
+    .block-triangle(rgba(237,241,243,1));
 
     @media (max-width: 800px) {
       padding-top: 25px;
@@ -89,6 +89,7 @@
   margin: 5px;
   border: 1px solid #ccd3d7;
   transition: all 200ms;
+  outline: none;
 
   img {
     max-width: 100%;
@@ -110,4 +111,10 @@
 .partners-block-slider {
   margin-left: -5px;
   margin-right: -5px;
+
+  .partners-block-card {
+    @media (max-width: 400px) {
+      height: 160px;
+    }
+  }
 }

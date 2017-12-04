@@ -27,5 +27,19 @@
                 </a>
             </li>
         </ul>
+
+        <div class="main-offcanvas-padding">
+            <div class="main-offcanvas-userarea">
+                <div class="main-offcanvas-userarea-login-register">
+                    <a href="#">Войти</a>
+                    <a href="#">Регистрация</a>
+                </div>
+            </div>
+
+            <div class="main-offcanvas-lang">
+                <a href="#" class="main-offcanvas-lang-item active">Рус</a>
+                <a href="#" class="main-offcanvas-lang-item">Eng</a>
+            </div>
+        </div>
     </div>
 </div>

@@ -12,6 +12,7 @@
   background-position: center;
   color: transparent;
   font-size: 0;
+  outline: none;
   transition: all 200ms;
 
   &:hover,
@@ -80,5 +81,63 @@
 
   &.slick-next {
     background-image: url("../images/icons/icon-slider-arrow-right-white.svg");
+  }
+}
+
+.slick-dots {
+  .ul-reset;
+  text-align: center;
+  margin-top: 20px;
+
+  li {
+    display: inline-block;
+
+    button {
+      appearance: none;
+      display: inline-block;
+      border: none;
+      box-shadow: none;
+      opacity: .2;
+      color: transparent;
+      font-size: 0;
+      padding: 5px;
+      cursor: pointer;
+      outline: none;
+      background: transparent;
+      transition: all 200ms;
+
+      &::after {
+        content: '';
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border-radius: 100%;
+        background: #000;
+        transition: all 200ms;
+      }
+
+      &:hover,
+      &:focus {
+        opacity: 1;
+        transition: all 200ms;
+
+        &::after {
+          background: @c-light-burgundy;
+          transition: all 200ms;
+        }
+      }
+    }
+
+    &.slick-active {
+      button {
+        opacity: 1;
+        transition: all 200ms;
+
+        &::after {
+          background: @c-light-burgundy;
+          transition: all 200ms;
+        }
+      }
+    }
   }
 }

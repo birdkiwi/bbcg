@@ -1,5 +1,12 @@
 (function() {
-    $(".js-events-slider").slick({
+    var $slider = $(".js-events-slider");
+
+    $slider.on('init', function (e, slick) {
+        console.log(e);
+        console.log(slick);
+    });
+
+    $slider.slick({
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,

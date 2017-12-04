@@ -10,13 +10,15 @@
   color: #fff;
   background-color: #000;
 
-  &:hover,
-  &:focus {
-    .events-block-item-readmore {
-      max-height: 100px;
-      margin-top: 18px;
-      opacity: 1;
-      transition: all 200ms;
+  @media (hover) {
+    &:hover,
+    &:focus {
+      .events-block-item-readmore {
+        max-height: 100px;
+        margin-top: 18px;
+        opacity: 1;
+        transition: all 200ms;
+      }
     }
   }
 }
@@ -30,6 +32,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  overflow: hidden;
 
   @media (max-width: 900px) {
     padding-top: 15px;
@@ -46,6 +49,16 @@
   padding: 25px 30px;
   border: solid 6px #1a9dff;
   min-height: 250px;
+  text-decoration: none;
+  color: #fff;
+  transition: all 200ms;
+
+  &:hover,
+  &:focus {
+    color: #fff;
+    box-shadow: 0 0 0 400px rgba(0, 0, 0, 0.5), inset 0 0 0 400px rgba(0, 0, 0, 0.5);
+    transition: all 200ms;
+  }
 
   @media (max-width: 900px) {
     padding: 15px;
@@ -132,6 +145,7 @@
 .events-block-item-desc {
   font-size: 14px;
   line-height: 1.43;
+  min-height: 60px;
 }
 
 .events-block-item-readmore {
@@ -244,6 +258,23 @@
 
 .events-block-slider {
   position: relative;
+  background-color: #444;
+}
+
+.events-block-slider-row {
+  opacity: 1;
+  transition: all 400ms;
+
+  &:not(.slick-initialized) {
+    opacity: 0;
+    overflow: hidden;
+    max-height: 545px;
+    transition: all 400ms;
+
+    @media (max-width: 900px) {
+      max-height: 425px;
+    }
+  }
 }
 
 .events-block-slider-arrows {

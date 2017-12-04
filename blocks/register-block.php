@@ -33,7 +33,7 @@
                 </div>
             </a>
             <a href="#" class="register-block-card register-block-offer">
-                <div class="register-block-offer-name c-yellow">
+                <div class="register-block-offer-name c-corn-yellow">
                     Premium
                 </div>
                 <div class="register-block-offer-price register-block-offer-price-premium">
@@ -57,9 +57,9 @@
                         </li>
                     </ul>
 
-                    <p class="text-center ff-gilroy-extrabold">
+                    <div class="register-block-offer-plus">
                         Все преимущества регистрации Base
-                    </p>
+                    </div>
                 </div>
                 <div class="register-block-offer-button">
                     <div class="button button-light-burgundy button-block">

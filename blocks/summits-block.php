@@ -19,7 +19,7 @@
 
         <div class="summits-block-slider js-summits-slider">
             <?php for ($i = 1; $i <= 3; $i++) : ?>
-            <div class="summits-block-slider-item" data-summits-year="<?php echo 2017 + $i; ?>">
+            <div class="summits-block-slider-item" data-summits-year="<?php echo 2015 + $i; ?>">
                 <div class="summits-block-cards">
                     <div class="summits-block-cards-title">
                         Москва

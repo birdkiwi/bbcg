@@ -5,16 +5,16 @@
             <div class="events-block-slider-item">
                 <div class="events-block-item events-block-item-blue">
                     <div class="events-block-item-header" style="background-image: url('images/tmp/events/event-1.jpg');">
-                        <div class="events-block-item-border">
+                        <a href="index.php" class="events-block-item-border">
                             <div class="events-block-item-name">
                                 Электронная торговля как драйвер трансформации глобального розничного рынка и бизнеса производителей
                             </div>
                             <div class="events-block-item-date">
                                 23–24 марта
                             </div>
-                        </div>
+                        </a>
                     </div>
-                    <a href="#" class="events-block-item-footer">
+                    <a href="index.php" class="events-block-item-footer">
                         <div class="events-block-item-logo">
                             <img src="images/summits-logo/online-retail-russia.png" alt="Online Retail Russia">
                         </div>
@@ -34,14 +34,14 @@
             <div class="events-block-slider-item">
                 <div class="events-block-item events-block-item-ink">
                     <div class="events-block-item-header" style="background-image: url('images/tmp/events/event-2.jpg');">
-                        <div class="events-block-item-border">
+                        <a href="#" class="events-block-item-border">
                             <div class="events-block-item-name">
                                 Какой будет новая система отношений сети и производителя в России?
                             </div>
                             <div class="events-block-item-date">
                                 23–24 марта
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <a href="#" class="events-block-item-footer">
                         <div class="events-block-item-logo">
@@ -63,14 +63,14 @@
             <div class="events-block-slider-item">
                 <div class="events-block-item events-block-item-yellow">
                     <div class="events-block-item-header" style="background-image: url('images/tmp/events/event-3.jpg');">
-                        <div class="events-block-item-border">
+                        <a href="#" class="events-block-item-border">
                             <div class="events-block-item-name">
                                 Скорость и эффективность продаж в современной рознице
                             </div>
                             <div class="events-block-item-date">
                                 23–24 марта
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <a href="#" class="events-block-item-footer">
                         <div class="events-block-item-logo">
@@ -92,14 +92,14 @@
             <div class="events-block-slider-item">
                 <div class="events-block-item events-block-item-orange">
                     <div class="events-block-item-header" style="background-image: url('images/tmp/events/event-1.jpg');">
-                        <div class="events-block-item-border">
+                        <a href="#" class="events-block-item-border">
                             <div class="events-block-item-name">
                                 Электронная торговля как драйвер трансформации глобального розничного рынка и бизнеса производителей
                             </div>
                             <div class="events-block-item-date">
                                 23–24 марта
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <a href="#" class="events-block-item-footer">
                         <div class="events-block-item-logo">
@@ -121,14 +121,14 @@
             <div class="events-block-slider-item">
                 <div class="events-block-item events-block-item-red">
                     <div class="events-block-item-header" style="background-image: url('images/tmp/events/event-2.jpg');">
-                        <div class="events-block-item-border">
+                        <a href="#" class="events-block-item-border">
                             <div class="events-block-item-name">
                                 Какой будет новая система отношений сети и производителя в России?
                             </div>
                             <div class="events-block-item-date">
                                 23–24 марта
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <a href="#" class="events-block-item-footer">
                         <div class="events-block-item-logo">
@@ -150,14 +150,14 @@
             <div class="events-block-slider-item">
                 <div class="events-block-item events-block-item-magenta">
                     <div class="events-block-item-header" style="background-image: url('images/tmp/events/event-3.jpg');">
-                        <div class="events-block-item-border">
+                        <a href="#" class="events-block-item-border">
                             <div class="events-block-item-name">
                                 Скорость и эффективность продаж в современной рознице
                             </div>
                             <div class="events-block-item-date">
                                 23–24 марта
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <a href="#" class="events-block-item-footer">
                         <div class="events-block-item-logo">
@@ -179,14 +179,14 @@
             <div class="events-block-slider-item">
                 <div class="events-block-item events-block-item-green">
                     <div class="events-block-item-header" style="background-image: url('images/tmp/events/event-3.jpg');">
-                        <div class="events-block-item-border">
+                        <a href="#" class="events-block-item-border">
                             <div class="events-block-item-name">
                                 Скорость и эффективность продаж в современной рознице
                             </div>
                             <div class="events-block-item-date">
                                 23–24 марта
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <a href="#" class="events-block-item-footer">
                         <div class="events-block-item-logo">
@@ -208,14 +208,14 @@
             <div class="events-block-slider-item">
                 <div class="events-block-item events-block-item-navy">
                     <div class="events-block-item-header" style="background-image: url('images/tmp/events/event-3.jpg');">
-                        <div class="events-block-item-border">
+                        <a href="#" class="events-block-item-border">
                             <div class="events-block-item-name">
                                 Скорость и эффективность продаж в современной рознице
                             </div>
                             <div class="events-block-item-date">
                                 23–24 марта
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <a href="#" class="events-block-item-footer">
                         <div class="events-block-item-logo">
@@ -237,14 +237,14 @@
             <div class="events-block-slider-item">
                 <div class="events-block-item events-block-item-red-orange">
                     <div class="events-block-item-header" style="background-image: url('images/tmp/events/event-3.jpg');">
-                        <div class="events-block-item-border">
+                        <a href="#" class="events-block-item-border">
                             <div class="events-block-item-name">
                                 Скорость и эффективность продаж в современной рознице
                             </div>
                             <div class="events-block-item-date">
                                 23–24 марта
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <a href="#" class="events-block-item-footer">
                         <div class="events-block-item-logo">
@@ -266,14 +266,14 @@
             <div class="events-block-slider-item">
                 <div class="events-block-item events-block-item-salad">
                     <div class="events-block-item-header" style="background-image: url('images/tmp/events/event-3.jpg');">
-                        <div class="events-block-item-border">
+                        <a href="#" class="events-block-item-border">
                             <div class="events-block-item-name">
                                 Скорость и эффективность продаж в современной рознице
                             </div>
                             <div class="events-block-item-date">
                                 23–24 марта
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <a href="#" class="events-block-item-footer">
                         <div class="events-block-item-logo">
