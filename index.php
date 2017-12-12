@@ -22,6 +22,7 @@
     <?php include "blocks/media-block.php"; ?>
     <?php include "blocks/iphone-block.php"; ?>
     <?php include "blocks/register-block.php"; ?>
+    <?php include "blocks/iphone-block-mobile.php"; ?>
 </main>
 
 <?php include "blocks/footer.php"; ?>

@@ -18212,6 +18212,8 @@ return $;
             {
                 breakpoint: 700,
                 settings: {
+                    arrows: false,
+                    dots: true,
                     rows: 1,
                     slidesToShow: 2,
                     slidesToScroll: 2
@@ -18220,6 +18222,8 @@ return $;
             {
                 breakpoint: 600,
                 settings: {
+                    arrows: false,
+                    dots: true,
                     rows: 1,
                     slidesToShow: 1,
                     slidesToScroll: 1
@@ -18324,6 +18328,8 @@ return $;
             {
                 breakpoint: 700,
                 settings: {
+                    arrows: false,
+                    dots: true,
                     rows: 1,
                     slidesToShow: 2,
                     slidesToScroll: 2
@@ -18332,6 +18338,8 @@ return $;
             {
                 breakpoint: 520,
                 settings: {
+                    arrows: false,
+                    dots: true,
                     rows: 1,
                     slidesToShow: 2,
                     slidesToScroll: 2
