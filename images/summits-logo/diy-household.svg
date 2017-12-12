@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="85" viewBox="0 0 90 85">
+    <defs>
+        <rect id="a" width="90" height="85" rx="1"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <use fill="#FFF" xlink:href="#a"/>
+            <rect width="89.151" height="84.151" x=".425" y=".425" stroke="#CCD3D7" stroke-width=".849" rx="1"/>
+        </g>
+        <path fill="#E17F38" d="M0 10h90v21H0z"/>
+        <text fill="#FFF" font-family="RobotoCondensed-Bold, Roboto Condensed" font-size="20" font-style="condensed" font-weight="bold" letter-spacing="-.7">
+            <tspan x="5" y="28">DI</tspan> <tspan x="20.309" y="28">Y</tspan>
+        </text>
+        <text fill="#2B2A29" font-family="RobotoCondensed-Bold, Roboto Condensed" font-size="17" font-style="condensed" font-weight="bold" letter-spacing="-.661">
+            <tspan x="5" y="48">HOUSEHOLD</tspan>
+        </text>
+        <text fill="#F79B58" font-family="RobotoCondensed-Bold, Roboto Condensed" font-size="28" font-style="condensed" font-weight="bold">
+            <tspan x="4.245" y="75.368">&amp;</tspan>
+        </text>
+        <text fill="#2B2A29" font-family="RobotoCondensed-Bold, Roboto Condensed" font-size="13" font-style="condensed" font-weight="bold">
+            <tspan x="25" y="63.585">FURNITURE</tspan> <tspan x="25" y="77.585">RETAIL</tspan>
+        </text>
+    </g>
+</svg>

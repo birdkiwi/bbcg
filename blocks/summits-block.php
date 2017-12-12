@@ -28,7 +28,7 @@
                     <div class="summits-block-cards-row">
                         <div class="summits-block-card">
                             <div class="summits-block-card-image">
-                                <img src="images/summits-logo/food-retail-russia.png" alt="Food Retail Russia">
+                                <img src="images/summits-logo/food-retail-russia.svg" alt="Food Retail Russia">
                             </div>
                             <div class="summits-block-card-date">
                                 23-24 марта
@@ -37,7 +37,7 @@
 
                         <div class="summits-block-card">
                             <div class="summits-block-card-image">
-                                <img src="images/summits-logo/private-labels.png" alt="Private Labels">
+                                <img src="images/summits-logo/private-labels.svg" alt="Private Labels">
                             </div>
                             <div class="summits-block-card-date">
                                 23-24 марта
@@ -46,7 +46,7 @@
 
                         <div class="summits-block-card">
                             <div class="summits-block-card-image">
-                                <img src="images/summits-logo/online-retail-russia.png" alt="Online Retail Russia">
+                                <img src="images/summits-logo/online-retail-russia.svg" alt="Online Retail Russia">
                             </div>
                             <div class="summits-block-card-date">
                                 23-24 марта
@@ -55,7 +55,7 @@
 
                         <div class="summits-block-card">
                             <div class="summits-block-card-image">
-                                <img src="images/summits-logo/russian-export-day.png" alt="Russian Export Day">
+                                <img src="images/summits-logo/russian-export-day.svg" alt="Russian Export Day">
                             </div>
                             <div class="summits-block-card-date">
                                 23-24 марта
@@ -64,7 +64,7 @@
 
                         <div class="summits-block-card">
                             <div class="summits-block-card-image">
-                                <img src="images/summits-logo/diy-household.png" alt="DIY Household & Furniture Retail">
+                                <img src="images/summits-logo/diy-household.svg" alt="DIY Household & Furniture Retail">
                             </div>
                             <div class="summits-block-card-date">
                                 23-24 марта
@@ -73,7 +73,7 @@
 
                         <div class="summits-block-card">
                             <div class="summits-block-card-image">
-                                <img src="images/summits-logo/retail-business-russia.png" alt="Retail Business Russia">
+                                <img src="images/summits-logo/retail-business-russia.svg" alt="Retail Business Russia">
                             </div>
                             <div class="summits-block-card-date">
                                 23-24 марта
@@ -82,7 +82,7 @@
 
                         <div class="summits-block-card">
                             <div class="summits-block-card-image">
-                                <img src="images/summits-logo/fashion-retail-russia.png" alt="Fashion Retail Russia">
+                                <img src="images/summits-logo/fashion-retail-russia.svg" alt="Fashion Retail Russia">
                             </div>
                             <div class="summits-block-card-date">
                                 23-24 марта
@@ -91,7 +91,7 @@
 
                         <div class="summits-block-card">
                             <div class="summits-block-card-image">
-                                <img src="images/summits-logo/fresh-food-russia.png" alt="Fresh Food Russia">
+                                <img src="images/summits-logo/fresh-food-russia.svg" alt="Fresh Food Russia">
                             </div>
                             <div class="summits-block-card-date">
                                 23-24 марта
@@ -100,7 +100,7 @@
 
                         <div class="summits-block-card">
                             <div class="summits-block-card-image">
-                                <img src="images/summits-logo/digital-technologies-forum.png" alt="Digital Technologies Forum">
+                                <img src="images/summits-logo/digital-technologies-forum.svg" alt="Digital Technologies Forum">
                             </div>
                             <div class="summits-block-card-date">
                                 23-24 марта
@@ -117,7 +117,7 @@
                     <div class="summits-block-cards-row">
                         <div class="summits-block-card">
                             <div class="summits-block-card-image">
-                                <img src="images/summits-logo/private-labels.png" alt="Private Labels">
+                                <img src="images/summits-logo/private-labels.svg" alt="Private Labels">
                             </div>
                             <div class="summits-block-card-date">
                                 23-24 марта
@@ -126,7 +126,7 @@
 
                         <div class="summits-block-card">
                             <div class="summits-block-card-image">
-                                <img src="images/summits-logo/ural-export-day.png" alt="Ural Export Day">
+                                <img src="images/summits-logo/ural-export-day.svg" alt="Ural Export Day">
                             </div>
                             <div class="summits-block-card-date">
                                 23-24 марта
@@ -143,7 +143,7 @@
                     <div class="summits-block-cards-row">
                         <div class="summits-block-card">
                             <div class="summits-block-card-image">
-                                <img src="images/summits-logo/euroshop-dusseldorf.png" alt="Euroshop Dusseldorf">
+                                <img src="images/summits-logo/euroshop-dusseldorf.svg" alt="Euroshop Dusseldorf">
                             </div>
                             <div class="summits-block-card-date">
                                 23-24 марта
@@ -152,7 +152,7 @@
 
                         <div class="summits-block-card">
                             <div class="summits-block-card-image">
-                                <img src="images/summits-logo/modern-bakery-moscow.png" alt="Modern Bakery Moscow">
+                                <img src="images/summits-logo/modern-bakery-moscow.svg" alt="Modern Bakery Moscow">
                             </div>
                             <div class="summits-block-card-date">
                                 23-24 марта

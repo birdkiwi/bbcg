@@ -7,12 +7,15 @@
             <use fill="#FFF" xlink:href="#a"/>
             <rect width="89" height="84" x=".5" y=".5" stroke="#CCD3D7" rx="1"/>
         </g>
-        <path fill="#1A9DFF" d="M0 10h90v21H0z"/>
+        <path fill="#7DAD52" d="M0 10h90v21H0z"/>
         <text fill="#FFF" font-family="RobotoCondensed-Bold, Roboto Condensed" font-size="20" font-style="condensed" font-weight="bold" letter-spacing="-.7">
-            <tspan x="5" y="28">ONLIN</tspan> <tspan x="53.043" y="28">E</tspan>
+            <tspan x="5" y="28">PRIVAT</tspan> <tspan x="61.122" y="28">E</tspan>
         </text>
         <text fill="#2B2A29" font-family="RobotoCondensed-Bold, Roboto Condensed" font-size="20" font-style="condensed" font-weight="bold" letter-spacing="-.7">
-            <tspan x="5" y="53">RETAIL</tspan> <tspan x="5" y="74">RUSSI</tspan> <tspan x="51.012" y="74">A</tspan>
+            <tspan x="5" y="53">LABEL</tspan> <tspan x="53.805" y="53">S</tspan>
+        </text>
+        <text fill="#7DAD52" font-family="RobotoCondensed-Bold, Roboto Condensed" font-size="13" font-style="condensed" font-weight="bold" letter-spacing="-.5">
+            <tspan x="5" y="64">ПЕРЕЗАГРУЗК</tspan> <tspan x="77.729" y="64">А</tspan>
         </text>
     </g>
 </svg>

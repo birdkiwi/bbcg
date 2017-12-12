@@ -7,9 +7,9 @@
             <use fill="#FFF" xlink:href="#a"/>
             <rect width="89" height="84" x=".5" y=".5" stroke="#CCD3D7" rx="1"/>
         </g>
-        <path fill="#1A9DFF" d="M0 10h90v21H0z"/>
-        <text fill="#FFF" font-family="RobotoCondensed-Bold, Roboto Condensed" font-size="20" font-style="condensed" font-weight="bold" letter-spacing="-.7">
-            <tspan x="5" y="28">ONLIN</tspan> <tspan x="53.043" y="28">E</tspan>
+        <path fill="#C53B22" d="M0 10h90v21H0z"/>
+        <text fill="#FFF" font-family="RobotoCondensed-Bold, Roboto Condensed" font-size="20" font-style="condensed" font-weight="bold" letter-spacing="-.609">
+            <tspan x="5" y="28">FOO</tspan> <tspan x="36.826" y="28" letter-spacing="-.529">D</tspan>
         </text>
         <text fill="#2B2A29" font-family="RobotoCondensed-Bold, Roboto Condensed" font-size="20" font-style="condensed" font-weight="bold" letter-spacing="-.7">
             <tspan x="5" y="53">RETAIL</tspan> <tspan x="5" y="74">RUSSI</tspan> <tspan x="51.012" y="74">A</tspan>

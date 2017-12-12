@@ -7,12 +7,12 @@
             <use fill="#FFF" xlink:href="#a"/>
             <rect width="89" height="84" x=".5" y=".5" stroke="#CCD3D7" rx="1"/>
         </g>
-        <path fill="#1A9DFF" d="M0 10h90v21H0z"/>
+        <path fill="#1C6EB0" d="M0 10h90v21H0z"/>
         <text fill="#FFF" font-family="RobotoCondensed-Bold, Roboto Condensed" font-size="20" font-style="condensed" font-weight="bold" letter-spacing="-.7">
-            <tspan x="5" y="28">ONLIN</tspan> <tspan x="53.043" y="28">E</tspan>
+            <tspan x="5" y="28">DIGITA</tspan> <tspan x="55.966" y="28">L</tspan>
         </text>
-        <text fill="#2B2A29" font-family="RobotoCondensed-Bold, Roboto Condensed" font-size="20" font-style="condensed" font-weight="bold" letter-spacing="-.7">
-            <tspan x="5" y="53">RETAIL</tspan> <tspan x="5" y="74">RUSSI</tspan> <tspan x="51.012" y="74">A</tspan>
+        <text fill="#2B2A29" font-family="RobotoCondensed-Bold, Roboto Condensed" font-size="13" font-style="condensed" font-weight="bold" letter-spacing="-.7">
+            <tspan x="5" y="47">TECHNOLOGIES</tspan> <tspan x="5" y="60">FORU</tspan> <tspan x="30.853" y="60">M</tspan>
         </text>
     </g>
 </svg>
