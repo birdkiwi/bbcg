@@ -10,7 +10,7 @@
                 </div>
             </div>
             <div class="media-block-header-right">
-                <a href="#" class="no-wrap">
+                <a href="media.php" class="no-wrap">
                     Медиатека BBCG
                 </a>
                 <div class="media-block-header-arrows"></div>

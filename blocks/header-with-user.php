@@ -39,9 +39,29 @@
         </div>
 
         <div class="main-header-userarea">
-            <div class="main-header-userarea-user">
-                Test user
-            </div>
+            <div class="main-header-user">
+                <div class="main-header-user-photo">
+                    <img src="images/tmp/speakers/andreas-shlyayher.jpg" alt="">
+                </div>
+                <div class="main-header-user-name">
+                    Alexey <br>
+                    Shlyayher
+                </div>
+                <div class="main-header-user-toggler"></div>
+
+                <div class="main-header-user-dropdown-wrapper">
+                    <div class="main-header-user-dropdown">
+                        <ul class="main-header-user-dropdown-menu">
+                            <li>
+                                <a href="cabinet-profile.php">Мой профиль</a>
+                            </li>
+                            <li class="main-header-user-dropdown-menu-divider"></li>
+                            <li>
+                                <a href="index.php" onclick="return confirm('Вы действительно хотите выйти?');">Выйти</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
         </div>
     </div>
 </header>
