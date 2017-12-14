@@ -1,4 +1,4 @@
-<section class="summits-block">
+<section class="summits-block summits-block-downarrow">
     <div class="wrapper">
         <div class="summits-block-header">
             <div class="summits-block-header-left">

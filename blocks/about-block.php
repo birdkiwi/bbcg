@@ -1,4 +1,4 @@
-<section class="about-block">
+<section class="about-block about-block-downarrow">
     <div class="wrapper">
         <div class="about-block-left">
             <div class="about-block-title">

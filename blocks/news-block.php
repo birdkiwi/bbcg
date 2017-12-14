@@ -1,4 +1,4 @@
-<section class="news-block">
+<section class="news-block news-block-downarrow">
     <div class="wrapper">
         <div class="news-block-header">
             <div class="news-block-header-left">

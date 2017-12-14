@@ -78,3 +78,30 @@
     }
   }
 }
+
+.pagination-inverse {
+  .pagination-list-item {
+    &.active {
+      .pagination-link {
+        background: rgba(255, 255, 255, 0.4);
+        color: #fff;
+      }
+    }
+  }
+
+  .pagination-link {
+    color: #fff;
+    background: #1b1b1b;
+    border-color: #fff;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    svg {
+      * {
+        fill: #fff;
+      }
+    }
+  }
+}

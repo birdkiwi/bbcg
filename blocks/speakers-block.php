@@ -1,4 +1,4 @@
-<section class="speakers-block">
+<section class="speakers-block speakers-block-downarrow">
     <div class="wrapper">
         <div class="speakers-block-header">
             <div class="speakers-block-header-left">
@@ -21,7 +21,7 @@
         <div class="speakers-block-slider js-speakers-slider">
             <?php for ($i = 1; $i <= 3; $i++) : ?>
             <div class="speakers-block-slider-item">
-                <a href="#" class="speakers-block-card">
+                <a href="data/speakers/speaker-1.php" class="speakers-block-card" data-side-modal data-side-modal-class="side-modal-wide side-modal-speaker">
                     <div class="speakers-block-card-photo">
                         <img src="images/tmp/speakers/speaker-1.png" alt="Ковпак Игорь">
                         <div class="speakers-block-card-logo">
@@ -43,7 +43,7 @@
                 </a>
             </div>
             <div class="speakers-block-slider-item">
-                <a href="#" class="speakers-block-card">
+                <a href="data/speakers/speaker-1.php" class="speakers-block-card" data-side-modal data-side-modal-class="side-modal-wide side-modal-speaker">
                     <div class="speakers-block-card-photo">
                         <img src="images/tmp/speakers/speaker-2.png" alt="Татьяна Луковецкая">
                         <div class="speakers-block-card-logo">
@@ -64,7 +64,7 @@
                 </a>
             </div>
             <div class="speakers-block-slider-item">
-                <a href="#" class="speakers-block-card">
+                <a href="data/speakers/speaker-1.php" class="speakers-block-card" data-side-modal data-side-modal-class="side-modal-wide side-modal-speaker">
                     <div class="speakers-block-card-photo">
                         <img src="images/tmp/speakers/speaker-3.png" alt="Adam Elman">
                         <div class="speakers-block-card-logo">
@@ -85,7 +85,7 @@
                 </a>
             </div>
             <div class="speakers-block-slider-item">
-                <a href="#" class="speakers-block-card">
+                <a href="data/speakers/speaker-1.php" class="speakers-block-card" data-side-modal data-side-modal-class="side-modal-wide side-modal-speaker">
                     <div class="speakers-block-card-photo">
                         <img src="images/tmp/speakers/speaker-3.png" alt="Adam Elman">
                         <div class="speakers-block-card-logo">
@@ -106,7 +106,7 @@
                 </a>
             </div>
             <div class="speakers-block-slider-item">
-                <a href="#" class="speakers-block-card">
+                <a href="data/speakers/speaker-1.php" class="speakers-block-card" data-side-modal data-side-modal-class="side-modal-wide side-modal-speaker">
                     <div class="speakers-block-card-photo">
                         <img src="images/tmp/speakers/speaker-5.png" alt="Jay DeBlank">
                         <div class="speakers-block-card-logo">
@@ -128,7 +128,7 @@
                 </a>
             </div>
             <div class="speakers-block-slider-item">
-                <a href="#" class="speakers-block-card">
+                <a href="data/speakers/speaker-1.php" class="speakers-block-card" data-side-modal data-side-modal-class="side-modal-wide side-modal-speaker">
                     <div class="speakers-block-card-photo">
                         <img src="images/tmp/speakers/speaker-6.png" alt="Gianluca Montesano">
                         <div class="speakers-block-card-logo">
@@ -149,7 +149,7 @@
                 </a>
             </div>
             <div class="speakers-block-slider-item">
-                <a href="#" class="speakers-block-card">
+                <a href="data/speakers/speaker-1.php" class="speakers-block-card" data-side-modal data-side-modal-class="side-modal-wide side-modal-speaker">
                     <div class="speakers-block-card-photo">
                         <img src="images/tmp/speakers/speaker-7.png" alt="Кен Хьюз">
                         <div class="speakers-block-card-logo">
@@ -170,7 +170,7 @@
                 </a>
             </div>
             <div class="speakers-block-slider-item">
-                <a href="#" class="speakers-block-card">
+                <a href="data/speakers/speaker-1.php" class="speakers-block-card" data-side-modal data-side-modal-class="side-modal-wide side-modal-speaker">
                     <div class="speakers-block-card-photo">
                         <img src="images/tmp/speakers/speaker-8.png" alt="Томислав Юкич">
                         <div class="speakers-block-card-logo">
@@ -195,7 +195,7 @@
 
         <div class="speakers-block-compact">
             <div class="speakers-block-card">
-                <a href="#" class="speakers-block-card-photo">
+                <a href="data/speakers/speaker-1.php" class="speakers-block-card-photo" data-side-modal data-side-modal-class="side-modal-wide side-modal-speaker">
                     <img src="images/tmp/speakers/speaker-1.png" alt="Ковпак Игорь">
                     <div class="speakers-block-card-logo">
                         <img src="images/tmp/speakers/speakers-logo-1.jpg" alt="">
@@ -215,7 +215,7 @@
                 </div>
             </div>
             <div class="speakers-block-card">
-                <a href="#" class="speakers-block-card-photo">
+                <a href="data/speakers/speaker-1.php" class="speakers-block-card-photo" data-side-modal data-side-modal-class="side-modal-wide side-modal-speaker">
                     <img src="images/tmp/speakers/speaker-2.png" alt="Татьяна Луковецкая">
                     <div class="speakers-block-card-logo">
                         <img src="images/tmp/speakers/speakers-logo-2.jpg" alt="">
@@ -234,7 +234,7 @@
                 </div>
             </div>
             <div class="speakers-block-card">
-                <a href="#" class="speakers-block-card-photo">
+                <a href="data/speakers/speaker-1.php" class="speakers-block-card-photo" data-side-modal data-side-modal-class="side-modal-wide side-modal-speaker">
                     <img src="images/tmp/speakers/speaker-3.png" alt="Adam Elman">
                     <div class="speakers-block-card-logo">
                         <img src="images/tmp/speakers/speakers-logo-3.jpg" alt="">
@@ -253,7 +253,7 @@
                 </div>
             </div>
             <div class="speakers-block-card">
-                <a href="#" class="speakers-block-card-photo">
+                <a href="data/speakers/speaker-1.php" class="speakers-block-card-photo" data-side-modal data-side-modal-class="side-modal-wide side-modal-speaker">
                     <img src="images/tmp/speakers/speaker-3.png" alt="Adam Elman">
                     <div class="speakers-block-card-logo">
                         <img src="images/tmp/speakers/speakers-logo-4.jpg" alt="">
@@ -272,12 +272,12 @@
                 </div>
             </div>
             <div class="speakers-block-card">
-                <div class="speakers-block-card-photo">
+                <a href="data/speakers/speaker-1.php" class="speakers-block-card-photo" data-side-modal data-side-modal-class="side-modal-wide side-modal-speaker">
                     <img src="images/tmp/speakers/speaker-5.png" alt="Jay DeBlank">
                     <div class="speakers-block-card-logo">
                         <img src="images/tmp/speakers/speakers-logo-5.jpg" alt="">
                     </div>
-                </div>
+                </a>
                 <div class="speakers-block-card-desc">
                     <a href="#" class="speakers-block-card-name">
                         Jay DeBlank
@@ -292,12 +292,12 @@
                 </div>
             </div>
             <div class="speakers-block-card">
-                <div class="speakers-block-card-photo">
+                <a href="data/speakers/speaker-1.php" class="speakers-block-card-photo" data-side-modal data-side-modal-class="side-modal-wide side-modal-speaker">
                     <img src="images/tmp/speakers/speaker-6.png" alt="Gianluca Montesano">
                     <div class="speakers-block-card-logo">
                         <img src="images/tmp/speakers/speakers-logo-6.jpg" alt="">
                     </div>
-                </div>
+                </a>
                 <div class="speakers-block-card-desc">
                     <a href="#" class="speakers-block-card-name">
                         Gianluca Montesano
@@ -311,12 +311,12 @@
                 </div>
             </div>
             <div class="speakers-block-card">
-                <div class="speakers-block-card-photo">
+                <a href="data/speakers/speaker-1.php" class="speakers-block-card-photo" data-side-modal data-side-modal-class="side-modal-wide side-modal-speaker">
                     <img src="images/tmp/speakers/speaker-7.png" alt="Кен Хьюз">
                     <div class="speakers-block-card-logo">
                         <img src="images/tmp/speakers/speakers-logo-7.jpg" alt="">
                     </div>
-                </div>
+                </a>
                 <div class="speakers-block-card-desc">
                     <a href="#" class="speakers-block-card-name">
                         Кен Хьюз
@@ -330,12 +330,12 @@
                 </div>
             </div>
             <div class="speakers-block-card">
-                <div class="speakers-block-card-photo">
+                <a href="data/speakers/speaker-1.php" class="speakers-block-card-photo" data-side-modal data-side-modal-class="side-modal-wide side-modal-speaker">
                     <img src="images/tmp/speakers/speaker-8.png" alt="Томислав Юкич">
                     <div class="speakers-block-card-logo">
                         <img src="images/tmp/speakers/speakers-logo-1.jpg" alt="">
                     </div>
-                </div>
+                </a>
                 <div class="speakers-block-card-desc">
                     <a href="#" class="speakers-block-card-name">
                         Томислав Юкич

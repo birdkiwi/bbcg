@@ -1,4 +1,4 @@
-<section class="media-block">
+<section class="media-block media-block-downarrow">
     <div class="wrapper">
         <div class="media-block-header">
             <div class="media-block-header-left">

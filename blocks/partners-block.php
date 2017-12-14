@@ -1,4 +1,4 @@
-<section class="partners-block">
+<section class="partners-block partners-block-downarrow">
     <div class="wrapper">
         <div class="partners-block-header">
             <div class="partners-block-header-left">

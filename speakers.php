@@ -50,7 +50,7 @@
         <div class="wrapper">
             <div class="row">
                 <div class="col-xs-12 col-sm-4 col-md-3">
-                    <a href="#" class="speakers-block-card">
+                    <a href="speakers-item.php" class="speakers-block-card">
                         <div class="speakers-block-card-photo">
                             <img src="images/tmp/speakers/speaker-1.png" alt="Ковпак Игорь">
                             <div class="speakers-block-card-logo">
@@ -71,8 +71,9 @@
                         </div>
                     </a>
                 </div>
+
                 <div class="col-xs-12 col-sm-4 col-md-3">
-                    <a href="#" class="speakers-block-card">
+                    <a href="speakers-item.php" class="speakers-block-card">
                         <div class="speakers-block-card-photo">
                             <img src="images/tmp/speakers/speaker-2.png" alt="Татьяна Луковецкая">
                             <div class="speakers-block-card-logo">
@@ -94,7 +95,7 @@
                 </div>
 
                 <div class="col-xs-12 col-sm-4 col-md-3">
-                    <a href="#" class="speakers-block-card">
+                    <a href="speakers-item.php" class="speakers-block-card">
                         <div class="speakers-block-card-photo">
                             <img src="images/tmp/speakers/speaker-3.png" alt="Adam Elman">
                             <div class="speakers-block-card-logo">
@@ -116,7 +117,7 @@
                 </div>
 
                 <div class="col-xs-12 col-sm-4 col-md-3">
-                    <a href="#" class="speakers-block-card">
+                    <a href="speakers-item.php" class="speakers-block-card">
                         <div class="speakers-block-card-photo">
                             <img src="images/tmp/speakers/speaker-3.png" alt="Adam Elman">
                             <div class="speakers-block-card-logo">
@@ -138,7 +139,7 @@
                 </div>
 
                 <div class="col-xs-12 col-sm-4 col-md-3">
-                    <a href="#" class="speakers-block-card">
+                    <a href="speakers-item.php" class="speakers-block-card">
                         <div class="speakers-block-card-photo">
                             <img src="images/tmp/speakers/speaker-5.png" alt="Jay DeBlank">
                             <div class="speakers-block-card-logo">
@@ -161,7 +162,7 @@
                 </div>
 
                 <div class="col-xs-12 col-sm-4 col-md-3">
-                    <a href="#" class="speakers-block-card">
+                    <a href="speakers-item.php" class="speakers-block-card">
                         <div class="speakers-block-card-photo">
                             <img src="images/tmp/speakers/speaker-1.png" alt="Ковпак Игорь">
                             <div class="speakers-block-card-logo">
@@ -182,8 +183,9 @@
                         </div>
                     </a>
                 </div>
+
                 <div class="col-xs-12 col-sm-4 col-md-3">
-                    <a href="#" class="speakers-block-card">
+                    <a href="speakers-item.php" class="speakers-block-card">
                         <div class="speakers-block-card-photo">
                             <img src="images/tmp/speakers/speaker-2.png" alt="Татьяна Луковецкая">
                             <div class="speakers-block-card-logo">
@@ -205,7 +207,7 @@
                 </div>
 
                 <div class="col-xs-12 col-sm-4 col-md-3">
-                    <a href="#" class="speakers-block-card">
+                    <a href="speakers-item.php" class="speakers-block-card">
                         <div class="speakers-block-card-photo">
                             <img src="images/tmp/speakers/speaker-3.png" alt="Adam Elman">
                             <div class="speakers-block-card-logo">
@@ -225,9 +227,98 @@
                         </div>
                     </a>
                 </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <a href="speakers-item.php" class="speakers-block-card">
+                        <div class="speakers-block-card-photo">
+                            <img src="images/tmp/speakers/speaker-1.png" alt="Ковпак Игорь">
+                            <div class="speakers-block-card-logo">
+                                <img src="images/tmp/speakers/speakers-logo-1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="speakers-block-card-desc">
+                            <div class="speakers-block-card-name">
+                                Ковпак Игорь
+                            </div>
+                            <div class="speakers-block-card-title">
+                                Основатель, ТС «Кировский»
+                                г. Екатеринбург
+                            </div>
+                            <div class="speakers-block-card-ask-question">
+                                Задать вопрос
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <a href="speakers-item.php" class="speakers-block-card">
+                        <div class="speakers-block-card-photo">
+                            <img src="images/tmp/speakers/speaker-2.png" alt="Татьяна Луковецкая">
+                            <div class="speakers-block-card-logo">
+                                <img src="images/tmp/speakers/speakers-logo-2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="speakers-block-card-desc">
+                            <div class="speakers-block-card-name">
+                                Татьяна Луковецкая
+                            </div>
+                            <div class="speakers-block-card-title">
+                                Глава, Рольф Retail
+                            </div>
+                            <div class="speakers-block-card-ask-question">
+                                Задать вопрос
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <a href="speakers-item.php" class="speakers-block-card">
+                        <div class="speakers-block-card-photo">
+                            <img src="images/tmp/speakers/speaker-3.png" alt="Adam Elman">
+                            <div class="speakers-block-card-logo">
+                                <img src="images/tmp/speakers/speakers-logo-3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="speakers-block-card-desc">
+                            <div class="speakers-block-card-name">
+                                Adam Elman
+                            </div>
+                            <div class="speakers-block-card-title">
+                                Global Head of Delivery for Plan A, Marks & Spencer
+                            </div>
+                            <div class="speakers-block-card-ask-question">
+                                Задать вопрос
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <a href="speakers-item.php" class="speakers-block-card">
+                        <div class="speakers-block-card-photo">
+                            <img src="images/tmp/speakers/speaker-3.png" alt="Adam Elman">
+                            <div class="speakers-block-card-logo">
+                                <img src="images/tmp/speakers/speakers-logo-4.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="speakers-block-card-desc">
+                            <div class="speakers-block-card-name">
+                                Adam Elman
+                            </div>
+                            <div class="speakers-block-card-title">
+                                Global Head of Delivery for Plan A, Marks & Spencer
+                            </div>
+                            <div class="speakers-block-card-ask-question">
+                                Задать вопрос
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
 
-            <div class="pagination text-center m-b-xl">
+            <div class="pagination pagination-inverse text-center m-t-xl m-b-xl">
                 <ul class="pagination-list">
                     <li class="pagination-list-item disabled">
                         <span class="pagination-link pagination-link-prev">
