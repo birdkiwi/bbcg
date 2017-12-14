@@ -1,5 +1,6 @@
 (function() {
-    $(".js-programs-slider").slick({
+    var $slider = $(".js-programs-slider");
+    $slider.slick({
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 3,
@@ -22,4 +23,14 @@
             }
         ]
     });
+
+    function resize() {
+        if ($(window).width() < 580) {
+            $slider.slick('slickFilter', function(i) {
+                return i < 10;
+            });
+        }
+    }
+
+    resize();
 })();

@@ -1,5 +1,7 @@
 (function() {
-    $(".js-news-slider").slick({
+    var $slider = $(".js-news-slider");
+
+    $slider.slick({
         infinite: true,
         slidesToShow: 4,
         rows: 2,
@@ -34,4 +36,14 @@
             }
         ]
     });
+
+    function resize() {
+        if ($(window).width() < 520) {
+            $slider.slick('slickFilter', function(i) {
+                return i < 10;
+            });
+        }
+    }
+
+    resize();
 })();

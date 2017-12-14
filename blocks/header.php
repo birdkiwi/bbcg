@@ -40,8 +40,12 @@
 
         <div class="main-header-userarea">
             <div class="main-header-userarea-login-register">
-                <a href="#">Войти</a>
-                <a href="#">Регистрация</a>
+                <a href="login.php" data-side-modal data-side-modal-url="blocks/modal-login.php" data-side-modal-class="login-modal">
+                    Войти
+                </a>
+                <a href="registration.php" data-side-modal data-side-modal-prevent-mobile data-side-modal-url="blocks/modal-registration.php" data-side-modal-class="registration-modal" data-side-modal-prevent-overlay-close data-side-modal-prevent-esc-close>
+                    Регистрация
+                </a>
             </div>
         </div>
     </div>

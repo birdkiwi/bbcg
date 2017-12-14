@@ -71,9 +71,7 @@
             <div class="about-block-seo-photo"></div>
 
             <div class="about-block-seo-button">
-                <a href="#" class="button button-light-burgundy">
-                    Регистрация
-                </a>
+                <a href="registration.php" data-side-modal data-side-modal-prevent-mobile data-side-modal-url="blocks/modal-registration.php" data-side-modal-class="registration-modal" data-side-modal-prevent-overlay-close data-side-modal-prevent-esc-close class="button button-light-burgundy">Регистрация</a>
 
                 <div class="about-block-seo-button-desc">
                     Эксклюзивная информация и полезные контакты в сфере ритейла.

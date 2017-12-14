@@ -1,7 +1,7 @@
 <section class="register-block">
     <div class="wrapper">
         <div class="register-block-cards">
-            <a href="#" class="register-block-card register-block-offer">
+            <a href="registration.php" data-side-modal data-side-modal-prevent-mobile data-side-modal-url="blocks/modal-registration.php" data-side-modal-class="registration-modal" data-side-modal-prevent-overlay-close data-side-modal-prevent-esc-close class="register-block-card register-block-offer">
                 <div class="register-block-offer-name">
                     Base
                 </div>
@@ -32,7 +32,7 @@
                     </div>
                 </div>
             </a>
-            <a href="#" class="register-block-card register-block-offer">
+            <a href="registration.php" data-side-modal data-side-modal-prevent-mobile data-side-modal-url="blocks/modal-registration.php" data-side-modal-class="registration-modal" data-side-modal-prevent-overlay-close data-side-modal-prevent-esc-close class="register-block-card register-block-offer">
                 <div class="register-block-offer-name c-corn-yellow">
                     Premium
                 </div>

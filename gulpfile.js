@@ -30,10 +30,13 @@ gulp.task('less', function() {
 
 var jsFiles = [
         './node_modules/jquery/dist/jquery.js',
-        './node_modules/inputmask/dist/jquery.inputmask.bundle.js',
+        './node_modules/spin.js/spin.js',
+        './node_modules/spin.js/jquery.spin.js',
+        './node_modules/jquery-mask-plugin/dist/jquery.mask.js',
         './node_modules/slick-carousel/slick/slick.js',
         './node_modules/jquery-modal/jquery.modal.js',
         './node_modules/jquery-validation/dist/jquery.validate.js',
+        './node_modules/baron/baron.min.js',
         './js/components/**/*.js',
         './js/scripts.js'
     ],
