@@ -1,4 +1,4 @@
-.iphone-block {
+.register-iphone-block {
   background: url("../images/backgrounds/black-pattern.png") repeat #000;
   padding-top: 60px;
   padding-bottom: 50px;
@@ -12,25 +12,29 @@
     }
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 768px) {
     padding-top: 25px;
     padding-bottom: 25px;
 
-    &:not(.iphone-block-mobile) {
+    .register-iphone-block-right {
       display: none;
     }
   }
 }
 
-.iphone-block-mobile {
+.register-iphone-block-mobile {
   display: none;
 
-  @media (max-width: 800px) {
+  @media (max-width: 768px) {
     display: block;
+
+    .register-iphone-block-right {
+      display: block;
+    }
   }
 }
 
-.iphone-block-left {
+.register-iphone-block-left {
   flex: 0 0 50%;
 
   @media (max-width: 1050px) {
@@ -38,7 +42,7 @@
   }
 }
 
-.iphone-block-right {
+.register-iphone-block-right {
   position: relative;
   flex: 0 0 50%;
   padding-left: 70px;
@@ -57,11 +61,11 @@
 
   @media (max-width: 470px) {
     padding-left: 0;
-    min-height: 460px;
+    min-height: auto;
   }
 }
 
-.iphone-block-title {
+.register-iphone-block-title {
   .ff-gilroy-extrabold;
   font-size: 50px;
   line-height: 1.2;
@@ -77,7 +81,7 @@
   }
 }
 
-.iphone-block-subtitle {
+.register-iphone-block-subtitle {
   font-size: 24px;
   font-weight: 300;
   line-height: 1.33;
@@ -92,7 +96,7 @@
   }
 }
 
-.iphone-block-screen {
+.register-iphone-block-screen {
   position: absolute;
   z-index: 10;
   bottom: -50px;
@@ -112,12 +116,11 @@
   }
 
   @media (max-width: 470px) {
-    left: 50%;
-    margin-left: -90px;
+    display: none;
   }
 }
 
-.iphone-block-app {
+.register-iphone-block-app {
   position: relative;
   text-align: center;
   padding-left: 300px;
@@ -139,6 +142,7 @@
 
   @media (max-width: 570px) {
     padding-left: 160px;
+    padding-top: 0;
   }
 
   @media (max-width: 470px) {
@@ -146,14 +150,14 @@
   }
 }
 
-.iphone-block-app-title {
+.register-iphone-block-app-title {
   .ff-gilroy-extrabold;
   font-size: 18px;
   text-align: center;
   margin-bottom: 12px;
 }
 
-.iphone-block-app-icon {
+.register-iphone-block-app-icon {
   display: inline-block;
   text-decoration: none;
   margin-bottom: 10px;

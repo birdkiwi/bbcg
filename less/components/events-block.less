@@ -10,15 +10,23 @@
   color: #fff;
   background-color: #000;
 
-  &:hover,
-  &:focus {
+  .mouse-hover({
     .events-block-item-readmore {
       max-height: 100px;
       margin-top: 18px;
       opacity: 1;
       transition: all 200ms;
     }
-  }
+  });
+
+  .mouse-focus({
+    .events-block-item-readmore {
+      max-height: 100px;
+      margin-top: 18px;
+      opacity: 1;
+      transition: all 200ms;
+    }
+  });
 }
 
 .events-block-item-header {
@@ -291,11 +299,20 @@
     transition: all 200ms;
     cursor: pointer;
 
-    &:hover,
-    &:focus {
+    &:active {
       background-color: @c-light-burgundy;
       transition: all 200ms;
     }
+
+    .mouse-hover({
+      background-color: @c-light-burgundy;
+      transition: all 200ms;
+    });
+
+    .keyboard-focus({
+      background-color: @c-light-burgundy;
+      transition: all 200ms;
+    });
   }
 
   .slick-prev {

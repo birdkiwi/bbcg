@@ -35,15 +35,23 @@
     }
   }
 
-  &:hover,
-  &:focus {
+  .mouse-hover({
     svg {
       * {
         fill: @c-light-burgundy;
         transition: all 200ms;
       }
     }
-  }
+  });
+
+  .keyboard-focus({
+    svg {
+      * {
+        fill: @c-light-burgundy;
+        transition: all 200ms;
+      }
+    }
+  });
 
   @media (max-width: 920px) {
     display: block;

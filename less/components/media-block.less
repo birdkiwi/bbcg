@@ -93,8 +93,7 @@
   text-decoration: none;
   transition: all 200ms;
 
-  &:hover,
-  &:focus {
+  .mouse-hover({
     border-color: @c-light-burgundy;
     color: #fff;
     transition: all 200ms;
@@ -116,7 +115,31 @@
       height: 56 + 16px;
       transition: all 200ms;
     }
-  }
+  });
+
+  .keyboard-focus({
+    border-color: @c-light-burgundy;
+    color: #fff;
+    transition: all 200ms;
+
+    .media-block-card-icon {
+      opacity: 1;
+      color: @c-light-burgundy;
+      transition: all 200ms;
+
+      svg {
+        * {
+          fill: @c-light-burgundy;
+        }
+      }
+    }
+
+    .media-block-card-title {
+      margin-top: -16px;
+      height: 56 + 16px;
+      transition: all 200ms;
+    }
+  });
 }
 
 .media-block-card-photo {

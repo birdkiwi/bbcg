@@ -7,12 +7,20 @@ body {
   .ff-open-sans;
 }
 
+[data-whatintent="mouse"] *:focus {
+  outline: none;
+}
+
 a {
   color: @c-text;
 
   &:hover {
     color: @c-light-burgundy;
   }
+
+  .keyboard-focus({
+    outline: 3px solid rgba(115, 178, 228, 0.6);
+  })
 }
 
 .ul-triangle-black {

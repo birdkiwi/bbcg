@@ -39,3 +39,33 @@
 .no-wrap {
   white-space: nowrap;
 }
+
+.disable-mouse-outline() {
+  [data-whatinput="mouse"] & {
+    outline: 0;
+  }
+}
+
+.mouse-focus(@rules) {
+  [data-whatinput="mouse"] & {
+    &:focus {
+      @rules();
+    }
+  }
+}
+
+.mouse-hover(@rules) {
+  [data-whatinput="mouse"] & {
+    &:hover {
+      @rules();
+    }
+  }
+}
+
+.keyboard-focus(@rules) {
+  [data-whatinput="keyboard"] & {
+    &:focus {
+      @rules();
+    }
+  }
+}
