@@ -1,26 +1,59 @@
-<section class="news-block">
-    <div class="wrapper">
-        <div class="news-block-header">
-            <div class="news-block-header-left">
-                <div class="news-block-title">
-                    Новости и события ритейла
-                </div>
-                <div class="news-block-subtitle">
-                    Узнайте эксклюзивную информацию о рынке до появления в СМИ
-                </div>
-            </div>
-            <div class="news-block-header-right">
-                <a href="news.php" class="no-wrap">
-                    Все новости
-                </a>
-                <div class="news-block-header-arrows"></div>
-            </div>
-        </div>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>BBCG — B2B Conference group</title>
+    <link rel="stylesheet" href="build/style.min.css">
+    <meta name="theme-color" content="#1b1b1b">
+</head>
+<body>
 
-        <div class="news-block-slider js-news-slider">
-            <?php for ($i = 1; $i <= 3; $i++) : ?>
-            <div class="news-block-slider-item">
-                <a href="data/news/news-1.php" class="news-block-item news-block-item-with-photo" data-side-modal data-side-modal-class="side-modal-wide side-modal-news">
+<?php include "blocks/header.php"; ?>
+<?php include "blocks/offcanvas.php"; ?>
+
+<main class="main-container main-container-with-header">
+    <div class="main-heading main-heading-navy">
+        <div class="wrapper">
+            <h1 class="main-heading-title">
+                <a href="#">
+                    Новости
+                </a>
+            </h1>
+
+            <form action="#" method="POST" class="main-heading-search-form">
+                <input type="search" name="search" class="main-heading-search-input" placeholder="Поиск">
+                <input type="submit" value="" class="main-heading-search-submit">
+            </form>
+        </div>
+    </div>
+
+    <nav class="subnav">
+        <div class="wrapper">
+            <ul class="subnav-list subnav-list-wide">
+                <li class="subnav-list-item active">
+                    <a href="#" class="subnav-link active">
+                        <span>Все</span>
+                    </a>
+                </li>
+                <li class="subnav-list-item">
+                    <a href="#" class="subnav-link">
+                        <span>Фотогалерея</span>
+                    </a>
+                </li>
+                <li class="subnav-list-item">
+                    <a href="#" class="subnav-link">
+                        <span>Видео</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="wrapper m-t-md m-b-md">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <a href="#" class="news-block-item news-block-item-with-photo m-b-md">
                     <div class="news-block-item-photo">
                         <img src="images/tmp/news/news-1.jpg" alt="">
                     </div>
@@ -39,9 +72,8 @@
                     </div>
                 </a>
             </div>
-
-            <div class="news-block-slider-item">
-                <a href="data/news/news-1.php" class="news-block-item news-block-item-with-photo" data-side-modal data-side-modal-class="side-modal-wide side-modal-news">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <a href="#" class="news-block-item news-block-item-with-photo m-b-md">
                     <div class="news-block-item-photo">
                         <img src="images/tmp/news/news-2.jpg" alt="">
                     </div>
@@ -60,9 +92,8 @@
                     </div>
                 </a>
             </div>
-
-            <div class="news-block-slider-item">
-                <a href="data/news/news-1.php" class="news-block-item news-block-item-blank" data-side-modal data-side-modal-class="side-modal-wide side-modal-news">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <a href="#" class="news-block-item news-block-item-blank m-b-md">
                     <div class="news-block-item-content">
                         <div class="news-block-item-title">
                             Ретейлеры для директоров
@@ -80,9 +111,8 @@
                     </div>
                 </a>
             </div>
-
-            <div class="news-block-slider-item">
-                <a href="data/news/news-1.php" class="news-block-item news-block-item-with-photo" data-side-modal data-side-modal-class="side-modal-wide side-modal-news">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <a href="#" class="news-block-item news-block-item-with-photo m-b-md">
                     <div class="news-block-item-photo">
                         <img src="images/tmp/news/news-3.jpg" alt="">
                     </div>
@@ -101,9 +131,8 @@
                     </div>
                 </a>
             </div>
-
-            <div class="news-block-slider-item">
-                <a href="data/news/news-1.php" class="news-block-item news-block-item-blank" data-side-modal data-side-modal-class="side-modal-wide side-modal-news">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <a href="#" class="news-block-item news-block-item-blank m-b-md">
                     <div class="news-block-item-content">
                         <div class="news-block-item-title">
                             Мастер-класс по европейской кухне
@@ -119,9 +148,8 @@
                     </div>
                 </a>
             </div>
-
-            <div class="news-block-slider-item">
-                <a href="data/news/news-1.php" class="news-block-item news-block-item-blank" data-side-modal data-side-modal-class="side-modal-wide side-modal-news">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <a href="#" class="news-block-item news-block-item-blank m-b-md">
                     <div class="news-block-item-content">
                         <div class="news-block-item-title">
                             Ретейлеры для директоров
@@ -139,49 +167,42 @@
                     </div>
                 </a>
             </div>
+        </div>
 
-            <div class="news-block-slider-item">
-                <a href="data/news/news-1.php" class="news-block-item news-block-item-with-photo" data-side-modal data-side-modal-class="side-modal-wide side-modal-news">
-                    <div class="news-block-item-photo">
-                        <img src="images/tmp/news/news-4.jpg" alt="">
-                    </div>
-                    <div class="news-block-item-content">
-                        <div class="news-block-item-title">
-                            В рамках RBR 2017, состоялся гала ужин Академии Ритейла и каким будет fashion-ритейл в ближайшем будущем, бла…
-                        </div>
-                        <div class="news-block-item-meta">
-                            <div class="news-block-item-date">
-                                26 октября
-                            </div>
-                            <div class="news-block-item-readmore">
-                                <?php include "images/icons/icon-news-readmore.svg"; ?>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="news-block-slider-item">
-                <a href="data/news/news-1.php" class="news-block-item news-block-item-with-photo" data-side-modal data-side-modal-class="side-modal-wide side-modal-news">
-                    <div class="news-block-item-photo">
-                        <img src="images/tmp/news/news-4.jpg" alt="">
-                    </div>
-                    <div class="news-block-item-content">
-                        <div class="news-block-item-title">
-                            Каким будет fashion-ритейл в ближайшем будущем?
-                        </div>
-                        <div class="news-block-item-meta">
-                            <div class="news-block-item-date">
-                                26 октября
-                            </div>
-                            <div class="news-block-item-readmore">
-                                <?php include "images/icons/icon-news-readmore.svg"; ?>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <?php endfor; ?>
+        <div class="pagination text-center m-b-xl">
+            <ul class="pagination-list">
+                <li class="pagination-list-item disabled">
+                    <span class="pagination-link pagination-link-prev">
+                        <?php include "images/icons/icon-pagination-prev.svg"; ?>
+                    </span>
+                </li>
+                <li class="pagination-list-item active">
+                    <span class="pagination-link">1</span>
+                </li>
+                <li class="pagination-list-item">
+                    <a href="#" class="pagination-link">2</a>
+                </li>
+                <li class="pagination-list-item">
+                    <a href="#" class="pagination-link">3</a>
+                </li>
+                <li class="pagination-list-item">
+                    <a href="#" class="pagination-link">4</a>
+                </li>
+                <li class="pagination-list-item">
+                    <a href="#" class="pagination-link">5</a>
+                </li>
+                <li class="pagination-list-item">
+                    <a href="#" class="pagination-link pagination-link-next">
+                        <?php include "images/icons/icon-pagination-next.svg"; ?>
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
-</section>
+</main>
+
+<?php include "blocks/footer.php"; ?>
+
+<script src="build/scripts.min.js"></script>
+</body>
+</html>

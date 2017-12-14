@@ -11,7 +11,7 @@
                 </div>
             </div>
             <div class="speakers-block-header-right">
-                <a href="#" class="no-wrap">
+                <a href="speakers.php" class="no-wrap">
                     Все спикеры
                 </a>
                 <div class="speakers-block-header-arrows"></div>

@@ -13,17 +13,14 @@
 <?php include "blocks/offcanvas.php"; ?>
 
 <main class="main-container main-container-with-header">
-    <?php include "blocks/events-block.php"; ?>
-    <?php include "blocks/about-block.php"; ?>
-    <?php include "blocks/summits-block.php"; ?>
-    <?php include "blocks/programs-block.php"; ?>
-    <?php include "blocks/news-block.php"; ?>
-    <?php include "blocks/speakers-block.php"; ?>
-    <?php include "blocks/partners-block.php"; ?>
-    <?php include "blocks/media-block.php"; ?>
-    <?php include "blocks/register-iphone-block.php"; ?>
-    <?php include "blocks/register-block.php"; ?>
-    <?php include "blocks/iphone-block-mobile.php"; ?>
+    <div class="site-error-404">
+        <div class="site-error-404-title">
+            Ошибка 404
+        </div>
+        <div class="site-error-404-subtitle">
+            страница не найдена
+        </div>
+    </div>
 </main>
 
 <?php include "blocks/footer.php"; ?>
