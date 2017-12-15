@@ -2,23 +2,18 @@
   margin-bottom: 40px;
 
   .form-control-checkbox {
-    [type="checkbox"] {
-      &:not(:checked),
-      &:checked {
-        & + label {
-          display: block;
-          color: #888888;
-          font-size: 0.85rem;
-          line-height: 1rem;
+    label {
+      display: block;
+      color: #888888;
+      font-size: 0.85rem;
+      line-height: 1rem;
 
-          &::before {
-            top: 1px;
-          }
+      &::before {
+        top: 1px;
+      }
 
-          &::after {
-            top: 8px;
-          }
-        }
+      &::after {
+        top: 8px;
       }
     }
   }

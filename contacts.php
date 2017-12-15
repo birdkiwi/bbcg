@@ -69,9 +69,10 @@
                     </div>
                 </div>
             </div>
-            <?php include "blocks/contacts-map.php";?>
         </div>
     </div>
+
+    <?php include "blocks/contacts-map.php";?>
 
     <div class="feedback-block">
         <div class="wrapper">

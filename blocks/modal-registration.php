@@ -24,8 +24,8 @@
         </div>
         <div class="col-xs-12 col-sm-4">
             <div class="form-group">
-                <label class="form-label" for="registration-form-middle-name">Отчество *</label>
-                <input id="registration-form-middle-name" type="text" name="middle_name" class="form-input" required>
+                <label class="form-label" for="registration-form-middle-name">Отчество</label>
+                <input id="registration-form-middle-name" type="text" name="middle_name" class="form-input">
             </div>
         </div>
     </div>
@@ -64,9 +64,8 @@
         <div class="form-messages animated flash js-form-messages"></div>
     </div>
 
-    <div class="form-group">
+    <div class="form-group text-center">
         <div class="form-control form-control-checkbox">
-            <input id="registration-form-agreement" type="checkbox" name="agreement" required>
             <label for="registration-form-agreement">
                 Нажимая кнопку «Зарегистрироваться», <br> я принимаю условия <a href="#" target="_blank">Пользовательского соглашения</a>.
             </label>

@@ -66,7 +66,7 @@
 
                     <div class="form-group">
                         <label for="cabinet-new-password-2" class="form-label">
-                            Подтвержите новый пароль
+                            Подтвердите новый пароль
                         </label>
                         <input id="cabinet-new-password-2" type="password" class="form-input" name="new_password2" required>
                     </div>

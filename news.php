@@ -13,7 +13,7 @@
 <?php include "blocks/offcanvas.php"; ?>
 
 <main class="main-container main-container-with-header">
-    <div class="main-heading main-heading-navy">
+    <div class="main-heading main-heading-black">
         <div class="wrapper">
             <h1 class="main-heading-title">
                 <a href="#">
@@ -52,6 +52,7 @@
 
     <div class="wrapper m-t-md m-b-md">
         <div class="row">
+            <?php for ($i = 1; $i <= 2; $i++) : ?>
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <a href="#" class="news-block-item news-block-item-with-photo m-b-md">
                     <div class="news-block-item-photo">
@@ -167,6 +168,7 @@
                     </div>
                 </a>
             </div>
+            <?php endfor; ?>
         </div>
 
         <div class="pagination text-center m-b-xl">

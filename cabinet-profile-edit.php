@@ -64,8 +64,8 @@
                     </div>
                     <div class="col-xs-12 col-sm-4">
                         <div class="form-group">
-                            <label class="form-label" for="registration-form-middle-name">Отчество *</label>
-                            <input id="registration-form-middle-name" type="text" name="middle_name" class="form-input" value="Константинопольский" required>
+                            <label class="form-label" for="registration-form-middle-name">Отчество</label>
+                            <input id="registration-form-middle-name" type="text" name="middle_name" class="form-input" value="Константинопольский">
                         </div>
                     </div>
                 </div>
