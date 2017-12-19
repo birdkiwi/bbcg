@@ -1,5 +1,6 @@
 .register-iphone-block {
   background: url("../images/backgrounds/black-pattern.png") repeat #000;
+  background-size: 25%;
   padding-top: 60px;
   padding-bottom: 50px;
   color: #fff;
@@ -72,10 +73,6 @@
   letter-spacing: -0.1px;
   text-transform: uppercase;
 
-  @media (max-width: 1050px) {
-    text-align: center;
-  }
-
   @media (max-width: 800px) {
     font-size: 26px;
   }
@@ -86,10 +83,6 @@
   font-weight: 300;
   line-height: 1.33;
   margin-top: 10px;
-
-  @media (max-width: 1050px) {
-    text-align: center;
-  }
 
   @media (max-width: 800px) {
     font-size: 16px;
@@ -147,6 +140,12 @@
 
   @media (max-width: 470px) {
     padding-left: 0;
+  }
+
+  br {
+    @media (max-width: 470px) {
+      display: none;
+    }
   }
 }
 

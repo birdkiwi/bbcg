@@ -16804,7 +16804,7 @@ return $;
                 }
             },
             {
-                breakpoint: 700,
+                breakpoint: 769,
                 settings: {
                     arrows: false,
                     dots: true,
@@ -16943,7 +16943,7 @@ return $;
                 }
             },
             {
-                breakpoint: 700,
+                breakpoint: 769,
                 settings: {
                     arrows: false,
                     dots: true,
@@ -17120,7 +17120,9 @@ $(document).on('click', '[data-side-modal]', function (e) {
     return false;
 });
 (function() {
-    $(".js-speakers-slider").slick({
+    var $slider = $(".js-speakers-slider");
+
+    $slider.slick({
         infinite: true,
         slidesToShow: 4,
         rows: 2,
@@ -17138,9 +17140,10 @@ $(document).on('click', '[data-side-modal]', function (e) {
                 }
             },
             {
-                breakpoint: 700,
+                breakpoint: 769,
                 settings: {
                     rows: 1,
+                    dots: true,
                     slidesToShow: 2,
                     slidesToScroll: 2
                 }
@@ -17149,12 +17152,23 @@ $(document).on('click', '[data-side-modal]', function (e) {
                 breakpoint: 520,
                 settings: {
                     rows: 1,
+                    dots: true,
                     slidesToShow: 1,
                     slidesToScroll: 1
                 }
             }
         ]
     });
+
+    function resize() {
+        if ($(window).width() < 520) {
+            $slider.slick('slickFilter', function(i) {
+                return i < 10;
+            });
+        }
+    }
+
+    resize();
 })();
 (function() {
     var $slider = $(".js-summits-slider");

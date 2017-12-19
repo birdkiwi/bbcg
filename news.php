@@ -32,17 +32,17 @@
         <div class="wrapper">
             <ul class="subnav-list subnav-list-wide">
                 <li class="subnav-list-item active">
-                    <a href="#" class="subnav-link active">
+                    <a href="news.php" class="subnav-link active">
                         <span>Все</span>
                     </a>
                 </li>
                 <li class="subnav-list-item">
-                    <a href="#" class="subnav-link">
+                    <a href="news.php" class="subnav-link">
                         <span>Фотогалерея</span>
                     </a>
                 </li>
                 <li class="subnav-list-item">
-                    <a href="#" class="subnav-link">
+                    <a href="news.php" class="subnav-link">
                         <span>Видео</span>
                     </a>
                 </li>

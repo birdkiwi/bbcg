@@ -13,7 +13,7 @@
 <?php include "blocks/offcanvas.php"; ?>
 
 <main class="main-container main-container-with-header">
-    <div class="main-heading main-heading-pear-green">
+    <div class="main-heading main-heading-green">
         <div class="wrapper">
             <h1 class="main-heading-title">Контакты</h1>
         </div>

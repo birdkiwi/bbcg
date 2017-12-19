@@ -55,7 +55,7 @@
   text-decoration: none;
   background: #fff;
   border: 1px solid @c-light-burgundy;
-  font-size: 1rem;
+  font-size: 15px;
   font-weight: 500;
   transition: background 200ms, color 200ms;
 
@@ -65,7 +65,7 @@
     }
   }
 
-  &:hover {
+  .mouse-hover({
     background: @c-light-burgundy;
     color: #fff;
     transition: background 200ms, color 200ms;
@@ -76,6 +76,12 @@
         transition: fill 200ms;
       }
     }
+  });
+
+  @media (max-width: @breakpoint-s) {
+    width: 30px;
+    height: 30px;
+    font-size: 13px;
   }
 }
 

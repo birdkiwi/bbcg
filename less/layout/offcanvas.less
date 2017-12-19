@@ -25,13 +25,14 @@
 }
 
 .main-offcanvas {
+  display: flex;
+  flex-direction: column;
   position: absolute;
-  width: 300px;
+  width: 280px;
   height: 100%;
   overflow-y: auto;
-  left: -300px;
+  left: -280px;
   top: 0;
-  border-right: 3px solid @c-light-burgundy;
   background: linear-gradient(122deg, rgba(237,241,243,1) 0%, rgba(237,241,243,1) 72%, rgba(246,248,249,1) 72%, rgba(250,250,250,1) 100%);
   box-shadow: 0 2px 12px 0 rgba(0,0,0,0.16);
   opacity: 0;
@@ -40,6 +41,12 @@
 
 .main-offcanvas-padding {
   padding: 0 15px;
+}
+
+.main-offcanvas-footer {
+  margin-top: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .main-offcanvas-logo {
@@ -102,7 +109,8 @@
 
 .main-offcanvas-userarea-login-register {
   .ff-gilroy-extrabold;
-  display: inline-block;
+  display: flex;
+  justify-content: space-around;
   font-size: 14px;
   padding: 10px 16px;
   border: solid 1px @c-light-burgundy;
@@ -111,21 +119,6 @@
     color: @c-light-burgundy;
     text-decoration: none;
     transition: all 200ms;
-
-    &::after {
-      content: '';
-      display: inline-block;
-      width: 1px;
-      height: 12px;
-      background-color: #ccd3d7;
-      margin: 0 8px;
-    }
-
-    &:last-child {
-      &::after {
-        display: none;
-      }
-    }
 
     &:hover {
       color: @c-text;

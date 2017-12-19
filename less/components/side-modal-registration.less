@@ -1,6 +1,9 @@
 .registration-modal {
-  width: 100%;
+  position: static;
+  width: 600px;
+  height: auto;
   opacity: 0;
+  align-self: center;
   transform: scale(0.9);
   transform-origin: center;
 
@@ -11,6 +14,15 @@
     &:hover {
       background-color: #f2f2f2;
     }
+  }
+
+  @media (max-width: 768px) {
+    align-self: flex-start;
+    width: 100%;
+  }
+
+  .side-modal-overflow {
+    height: auto;
   }
 }
 

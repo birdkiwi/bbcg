@@ -113,8 +113,6 @@
     </div>
 </main>
 
-<?php include "blocks/footer.php"; ?>
-
 <script src="build/scripts.min.js"></script>
 </body>
 </html>

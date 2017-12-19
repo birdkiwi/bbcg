@@ -64,7 +64,7 @@
         <div class="form-messages animated flash js-form-messages"></div>
     </div>
 
-    <div class="form-group text-center">
+    <div class="form-group">
         <div class="form-control form-control-checkbox">
             <label for="registration-form-agreement">
                 Нажимая кнопку «Зарегистрироваться», <br> я принимаю условия <a href="#" target="_blank">Пользовательского соглашения</a>.

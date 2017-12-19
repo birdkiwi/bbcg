@@ -1,5 +1,7 @@
 (function() {
-    $(".js-speakers-slider").slick({
+    var $slider = $(".js-speakers-slider");
+
+    $slider.slick({
         infinite: true,
         slidesToShow: 4,
         rows: 2,
@@ -17,9 +19,10 @@
                 }
             },
             {
-                breakpoint: 700,
+                breakpoint: 769,
                 settings: {
                     rows: 1,
+                    dots: true,
                     slidesToShow: 2,
                     slidesToScroll: 2
                 }
@@ -28,10 +31,21 @@
                 breakpoint: 520,
                 settings: {
                     rows: 1,
+                    dots: true,
                     slidesToShow: 1,
                     slidesToScroll: 1
                 }
             }
         ]
     });
+
+    function resize() {
+        if ($(window).width() < 520) {
+            $slider.slick('slickFilter', function(i) {
+                return i < 10;
+            });
+        }
+    }
+
+    resize();
 })();
