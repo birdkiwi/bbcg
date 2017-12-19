@@ -40,9 +40,9 @@
 
         <div class="main-header-userarea">
             <div class="main-header-user">
-                <div class="main-header-user-photo">
+                <!--<div class="main-header-user-photo">
                     <img src="images/tmp/speakers/andreas-shlyayher.jpg" alt="">
-                </div>
+                </div>-->
                 <div class="main-header-user-name">
                     Alexey <br>
                     Shlyayher

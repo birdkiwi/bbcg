@@ -38,4 +38,14 @@
             hide();
         });
     }*/
+
+    if (Swipe && document.getElementById("offcanvas")) {
+        new Swipe(document.getElementById("offcanvas"), function(event, direction) {
+            event.preventDefault();
+
+            if (direction === 'left') {
+                hide();
+            }
+        });
+    }
 })();

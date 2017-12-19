@@ -69,3 +69,10 @@
     }
   }
 }
+
+// Global page themes
+.blue-theme(@rules) {
+  .blue-theme & {
+    @rules();
+  }
+}

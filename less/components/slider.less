@@ -16,9 +16,17 @@
   cursor: pointer;
   transition: all 200ms;
 
+  .blue-theme({
+    border-color: @c-blue;
+  });
+
   .mouse-hover({
     background-color: @c-light-burgundy;
     transition: all 200ms;
+
+    .blue-theme({
+      background-color: @c-blue;
+    });
 
     svg {
       * {
@@ -29,27 +37,18 @@
   });
 
   .keyboard-focus({
-    background-color: @c-light-burgundy;
-    outline: 3px solid rgba(115, 178, 228, 0.6);
-    transition: all 200ms;
-
-    svg {
-      * {
-        fill: #fff;
-        transition: all 200ms;
-      }
-    }
-  });
+    outline: 2px solid @c-blue;
+  })
 }
 
 .slick-prev {
   background-image: url("../images/icons/icon-slider-arrow-left-burgundy.svg");
 
-  .mouse-hover({
-    background-image: url("../images/icons/icon-slider-arrow-left-white.svg");
+  .blue-theme({
+    background-image: url("../images/icons/icon-slider-arrow-left-blue.svg");
   });
 
-  .keyboard-focus({
+  .mouse-hover({
     background-image: url("../images/icons/icon-slider-arrow-left-white.svg");
   });
 }
@@ -57,11 +56,11 @@
 .slick-next {
   background-image: url("../images/icons/icon-slider-arrow-right-burgundy.svg");
 
-  .mouse-hover({
-    background-image: url("../images/icons/icon-slider-arrow-right-white.svg");
+  .blue-theme({
+    background-image: url("../images/icons/icon-slider-arrow-right-blue.svg");
   });
 
-  .keyboard-focus({
+  .mouse-hover({
     background-image: url("../images/icons/icon-slider-arrow-right-white.svg");
   });
 }
@@ -89,19 +88,6 @@
       background-image: url("../images/icons/icon-slider-arrow-right-grey.svg");
     }
   });
-
-  .keyboard-focus({
-    border-color: @c-cool-grey;
-    background-color: transparent;
-
-    &.slick-prev {
-      background-image: url("../images/icons/icon-slider-arrow-left-grey.svg");
-    }
-
-    &.slick-next {
-      background-image: url("../images/icons/icon-slider-arrow-right-grey.svg");
-    }
-  });
 }
 
 .slick-arrow-white {
@@ -109,11 +95,6 @@
   transition: all 200ms;
 
   .mouse-hover({
-    border-color: @c-light-burgundy;
-    transition: all 200ms;
-  });
-
-  .keyboard-focus({
     border-color: @c-light-burgundy;
     transition: all 200ms;
   });
@@ -164,18 +145,12 @@
         transition: all 200ms;
 
         &::after {
-          background: @c-light-burgundy;
+          background-color: @c-light-burgundy;
           transition: all 200ms;
-        }
-      });
 
-      .keyboard-focus({
-        opacity: 1;
-        transition: all 200ms;
-
-        &::after {
-          background: @c-light-burgundy;
-          transition: all 200ms;
+          .blue-theme({
+            background-color: @c-blue;
+          });
         }
       });
     }
@@ -186,8 +161,12 @@
         transition: all 200ms;
 
         &::after {
-          background: @c-light-burgundy;
+          background-color: @c-light-burgundy;
           transition: all 200ms;
+
+          .blue-theme({
+            background-color: @c-blue;
+          });
         }
       }
     }

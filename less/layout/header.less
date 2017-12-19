@@ -21,6 +21,10 @@
   }
 }
 
+.main-header-with-global {
+  top: 28px;
+}
+
 .main-header-toggler {
   display: none;
   margin-left: -10px;
@@ -59,6 +63,8 @@
 }
 
 .main-header-logo {
+  padding-right: 15px;
+
   a {
     display: block;
   }
@@ -101,6 +107,10 @@
 
         &:hover {
           transition: all 200ms;
+
+          .blue-theme({
+            color: @c-blue;
+          });
         }
       }
 
@@ -185,12 +195,21 @@
   display: inline-block;
   font-size: 14px;
   padding: 10px 16px;
+  white-space: nowrap;
   border: solid 1px @c-light-burgundy;
+
+  .blue-theme({
+    border-color: @c-blue;
+  });
 
   a {
     color: @c-light-burgundy;
     text-decoration: none;
     transition: all 200ms;
+
+    .blue-theme({
+      color: @c-blue;
+    });
 
     &::after {
       content: '';

@@ -92,6 +92,16 @@
   @media (max-width: 700px) {
     display: none;
   }
+
+  .slick-dots {
+    li {
+      button {
+        &::after {
+          background-color: #fff;
+        }
+      }
+    }
+  }
 }
 
 .speakers-block-card {
@@ -191,6 +201,7 @@
 }
 
 .speakers-block-card-title {
+  color: #fff;
   opacity: 0.7;
   font-size: 13px;
   line-height: 1.23;

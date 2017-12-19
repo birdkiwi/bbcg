@@ -5,7 +5,7 @@
             <div class="events-block-slider-item">
                 <div class="events-block-item events-block-item-blue">
                     <div class="events-block-item-header" style="background-image: url('images/tmp/events/event-1.jpg');">
-                        <a href="index.php" class="events-block-item-border">
+                        <a href="event-1.php" class="events-block-item-border">
                             <div class="events-block-item-name">
                                 Электронная торговля как драйвер трансформации глобального розничного рынка и бизнеса производителей
                             </div>
@@ -14,7 +14,7 @@
                             </div>
                         </a>
                     </div>
-                    <a href="index.php" class="events-block-item-footer">
+                    <a href="event-1.php" class="events-block-item-footer">
                         <div class="events-block-item-logo">
                             <img src="images/summits-logo/online-retail-russia.svg" alt="Online Retail Russia">
                         </div>
